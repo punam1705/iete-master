@@ -1,0 +1,164 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar nav {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background: #00000020;
+    backdrop-filter: blur(6px);
+    color: #eee;
+}
+
+.navbar nav .navBorder {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #eeeeee62, transparent);
+}
+
+.navbar nav .navLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navbar nav .navLogo span {
+    font-size: 1.2rem;
+    color: #eee;
+    font-family: ar;
+    padding-left: 1rem;
+    letter-spacing: .15rem;
+}
+
+.navbar nav .navLinkWrap {
+    z-index: 12;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.navbar nav .navLinkWrap .navLink ul {
+    list-style: none;
+}
+
+.navbar nav .navLinkWrap .navLink ul li {
+    position: relative;
+    float: left;
+}
+
+.navbar nav .navLinkWrap .navLink ul li a {
+    padding: .72rem .6rem;
+    border-radius: 4px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    transition: .32s;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar nav .navLinkWrap .navLink ul li a:hover {
+    transform: scale(1.1);
+}
+
+.navbar nav .navLinkWrap .navLink ul li a i {
+    margin-right: .6rem;
+}
+
+.navbar nav .navLinkWrap .navLink ul li ul {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    background: #000;
+    z-index: 12;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, transparent, #eeeeee62, transparent) 1 100%;
+    display: none;
+}
+
+.navNewIcon {
+    display: none;
+}
+
+.navbar nav .navLinkWrap .navLink ul li ul li {
+    width: 100%;
+}
+
+.navbar nav .navLinkWrap .navLink ul li ul li a {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.navbar nav .navLinkWrap .navLink ul li:focus-within>ul,
+.navbar nav .navLinkWrap .navLink ul li:hover>ul {
+    display: initial;
+}
+
+.navbar nav .navExtra {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar nav .navExtra .navBtn {
+    background: linear-gradient(transparent, #eeeeee32);
+    border: 1px solid #eeeeee62;
+    border-radius: 100px;
+    padding: .6rem 1rem;
+    cursor: pointer;
+    font-size: .8rem;
+}
+
+.navbar nav .navExtra .navIcon {
+    font-size: 1.5rem;
+    display: none;
+    color: #eee;
+}
+
+@media (max-width: 800px) {
+    .navbar nav .navExtra .navIcon {
+        display: initial;
+    }
+
+    .navbar nav .navLinkWrap .navLink {
+        position: absolute;
+        top: 100%;
+        height: calc(100vh - 4rem);
+        left: 0;
+        right: 0;
+        background: #000;
+    }
+
+    .navbar nav .navLinkWrap .navLink ul li {
+        width: 100%;
+        padding: .5rem 1rem;
+    }
+
+    .navbar nav .navLinkWrap .navLink ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    .navbar nav .navExtra .navIcon {
+        display: initial;
+    }
+}
