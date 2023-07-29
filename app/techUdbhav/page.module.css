@@ -1,0 +1,209 @@
+.tuPage {
+    background: #000;
+}
+
+.tuPageWrap {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 100vh;
+    background: url('../../public/img/techudbhav/bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.tupwNew {
+    background: linear-gradient(transparent, #eeeeee32);
+    border: 1px solid #eeeeee62;
+    border-radius: 100px;
+    padding: .54em 1rem;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tupwHeading {
+    font-size: 3.4rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+}
+
+.tupwPara {
+    color: #ddd;
+    width: 50%;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.heading {
+    font-size: 2.4rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+    text-transform: uppercase;
+    text-align: center;
+    margin: .5rem 0;
+}
+
+.subHeadingWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.subHeading {
+    background: linear-gradient(transparent, #eeeeee32);
+    border: 1px solid #eeeeee62;
+    border-radius: 100px;
+    padding: .54em 1rem;
+    font-size: .8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tuEvent {
+    display: flex;
+    align-items: flex-start;
+    padding: 4rem 0;
+    width: 90%;
+    margin: 0 auto;
+    gap: 4rem;
+}
+
+.tuEventSide {
+    position: sticky;
+    top: 4.5rem;
+    left: 0;
+    min-width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.tuEventSide img {
+    width: 100%;
+}
+
+.tuEventMain {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+}
+
+.tuesHeading {
+    font-size: 2rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tuSideText {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.tustPara {
+    background: linear-gradient(transparent, #eeeeee32);
+    border: 1px solid #eeeeee62;
+    border-radius: 100px;
+    padding: .54em 1rem;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+}
+
+.tuCard {
+    display: flex;
+    gap: 2rem;
+}
+
+.tuCard:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.tucImg {
+    min-width: 260px;
+    max-width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tucImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .4s;
+}
+
+.tuCard:hover .tucImg img {
+    transform: scale(1.1);
+}
+
+.tucText {
+    padding: 2rem;
+    background: #4f4f4f32;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: .9rem;
+}
+
+.tuctHeading {
+    font-family: afr;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 520px) {
+    .tuPageWrap {
+        padding: 1rem;
+    }
+
+    .tupwHeading {
+        font-size: 2.6rem;
+        text-align: center;
+    }
+
+    .tupwPara {
+        width: 100%;
+        font-size: .8rem;
+    }
+
+    .tuEvent {
+        padding: 4rem 1rem;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tuEventSide {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .tuCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .tuCard:nth-child(even) {
+        flex-direction: column;
+    }
+}

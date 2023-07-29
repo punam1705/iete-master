@@ -1,0 +1,162 @@
+.eventPage {
+    background: #000;
+}
+
+.eventPageWrap {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 100vh;
+    background: url('../../public/img/events/bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.epwNew {
+    background: linear-gradient(transparent, #eeeeee32);
+    border: 1px solid #eeeeee62;
+    border-radius: 100px;
+    padding: .54em 1rem;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.epwHeading {
+    font-size: 3.4rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+}
+
+.epwPara {
+    color: #ddd;
+    width: 50%;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.heading {
+    font-size: 2.4rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+    text-transform: uppercase;
+    text-align: center;
+    margin: .5rem 0;
+}
+
+.subHeadingWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.subHeading {
+    background: linear-gradient(transparent, #eeeeee32);
+    border: 1px solid #eeeeee62;
+    border-radius: 100px;
+    padding: .54em 1rem;
+    font-size: .8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.eventListWrap .section {
+    width: 90%;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+.eventBox {
+    padding: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eventCard {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ecImage {
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+}
+
+.ecImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ecText {
+    position: absolute;
+    top: calc(100% - 4rem);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #eeeeee32;
+    backdrop-filter: blur(6px);
+    padding: 1.5rem;
+    text-align: justify;
+    border-top: 1px solid #eee;
+    transition: .4s;
+}
+
+.ecText h3 {
+    padding-bottom: 1.5rem;
+}
+
+.eventCard:hover .ecImage {
+    opacity: 0;
+}
+
+.eventCard:hover .ecText {
+    top: 0;
+}
+
+@media (max-width: 520px) {
+    .eventPageWrap {
+        padding: 1rem;
+    }
+
+    .epwHeading {
+        font-size: 2.6rem;
+        text-align: center;
+    }
+
+    .epwPara {
+        width: 100%;
+        font-size: .8rem;
+    }
+
+    .eventListWrap .section {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .eventBox {
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .eventCard {
+        width: 320px;
+        height: 320px;
+    }
+}
