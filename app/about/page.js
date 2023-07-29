@@ -11,7 +11,7 @@ const page = () => {
             <div className={styles.aboutPageWrap}>
                 <div className={styles.apwNew}><BsStars />We are simply the best!</div>
                 <div className={styles.apwHeading}>About IETE!</div>
-                <div className={styles.apwPara}>The Institution of Electronics and Telecommunication Engineers(IETE) is Indias leading recognised professional society devoted to advancment of science and technology of Electronics, Telecommunication & IT, Founded in 1953.</div>
+                <div className={styles.apwPara}>The Institution of Electronics and Telecommunication Engineers(IETE)is Indias leading recognised professional society devoted to advancment of science and technology of Electronics, Telecommunication & IT, Founded in 1953.</div>
             </div>
 
             <div className={styles.aboutParent}>
@@ -22,7 +22,7 @@ const page = () => {
                     <div className={styles.heading}>IETE National Body</div>
 
                     <div className={styles.aboutParentText}>
-                        <p>The Institution of Electronics and Telecommunication Engineers (IETE) is Indias leading recognised professional society devoted to the advancement of Science and Technology of Electronics, Telecommunication & IT. Founded in 1953. The IETE is the National Apex Professional body of Electronics and Telecommunication, Computer Science and IT Professionals. It serves more than 1,25,000 members (including Corporate, Student and ISF members) through various 64 Centres, spread all over India and abroad.</p>
+                        <p>The <span style={{ fontWeight: "800", fontSize: "1.2rem" }}>Institution of Electronics and Telecommunication Engineers (IETE)</span> is Indias leading recognised professional society devoted to the advancement of Science and Technology of Electronics, Telecommunication & IT. Founded in 1953. The IETE is the National Apex Professional body of Electronics and Telecommunication, Computer Science and IT Professionals. It serves more than 1,25,000 members (including Corporate, Student and ISF members) through various 64 Centres, spread all over India and abroad.</p>
                     </div>
 
                     <div className={styles.objective}>
@@ -33,6 +33,27 @@ const page = () => {
                             <div className={styles.objectiveDes}><div className={styles.odIcon}><GiSpellBook /></div>The IETE conducts and sponsors technical meetings, conferences, symposia, and exhibitions all over India, publishes technical journals and provides continuing education as well as career advancement opportunities to its members.</div>
                             <div className={styles.objectiveDes}><div className={styles.odIcon}><PiExamFill /></div>The IETE conducts both the Graduateship (AMIETE) Examination and Diploma (DIPIETE) Examination in Electronics & Telecommunication and Computer Science & Engineering streams.</div>
                             {/* <img src="img/ieteLogo.png" alt="" className={styles.objectiveImage}/> */}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.aboutProf}>
+                <div className={styles.aboutProfWrap}>
+                    <div className={styles.subHeadingWrap}>
+                        <div className={styles.subHeading}><BiSolidComponent />Meet our Professor Incharge</div>
+                    </div>
+                    <div className={styles.heading}>Our professor</div>
+                    <div className={styles.profWrap}>
+                        <div className={styles.prof}>
+                            <img src="/img/about/dk.jpg" alt="" />
+                            <h2>Our Patron</h2>
+                            <p>Dr. D.K Singh</p>
+                        </div>
+                        <div className={styles.prof}>
+                            <img src="/img/about/imteyazsir.jpg" alt="" />
+                            <h2>Our Professor Incharge</h2>
+                            <p>Prof. Imteyaz Ahmed</p>
                         </div>
                     </div>
                 </div>

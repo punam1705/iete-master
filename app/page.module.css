@@ -39,7 +39,7 @@
     font-size: .9rem;
 }
 
-.dotBoxWrap{
+.dotBoxWrap {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -60,21 +60,38 @@
 }
 
 .homeDotBox1 {
-    top: 50vh;
+    top: 20vh;
     left: 3.2vw;
-    width: 250px;
     width: 250px;
 }
 
 .homeDotBox2 {
-    top: 70vh;
-    right: 15vw;
+    top: 40vh;
+    left: 3.2vw;
     width: 250px;
 }
 
 .homeDotBox3 {
+    top: 60vh;
+    left: 3.2vw;
+    width: 250px;
+}
+
+.homeDotBox4 {
     top: 20vh;
-    right: 2vw;
+    right: 3.2vw;
+    width: 250px;
+}
+
+.homeDotBox5 {
+    top: 40vh;
+    right: 3.2vw;
+    width: 250px;
+}
+
+.homeDotBox6 {
+    top: 60vh;
+    right: 3.2vw;
     width: 250px;
 }
 
@@ -108,7 +125,7 @@ img.hdbImg {
     z-index: 1;
 }
 
-.bgVideo{
+.bgVideo {
     position: absolute;
     right: 0;
     top: 0;
@@ -117,14 +134,14 @@ img.hdbImg {
 }
 
 @media (min-aspect-ratio: 16/9) {
-    .bgVideo{
+    .bgVideo {
         width: 100%;
         height: auto;
     }
 }
 
 @media (max-aspect-ratio: 16/9) {
-    .bgVideo{
+    .bgVideo {
         width: auto;
         height: 100%;
     }
@@ -325,6 +342,10 @@ img.hdbImg {
         font-size: .8rem;
     }
 
+    .homeDotBox{
+        display: none;
+    }
+
     .homeDotBox1 {
         top: 55vh;
         left: 25%;
@@ -360,7 +381,7 @@ img.hdbImg {
     }
 
     .homeDotBox:hover {
-        transform: none;
+        display: none;
     }
 
     .heroBottom {
@@ -381,7 +402,7 @@ img.hdbImg {
         width: 100%;
     }
 
-    .heroBottomBriefText{
+    .heroBottomBriefText {
         text-align: justify;
     }
 
