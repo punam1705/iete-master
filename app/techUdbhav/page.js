@@ -16,7 +16,7 @@ const Page = () => {
             <div className={styles.tuEvent}>
                 <div className={styles.tuEventSide}>
                     <div className={styles.tuesHeading}>Tech Udbhav</div>
-                    <img src="/img/techUdbhav/tu.jpg" alt="" />
+                    <img src="/img/techUdbhav/tu.jpg" alt="image" />
 
                     <div className={styles.tuSideText}>
                         <a href="#tu6"><div className={styles.tustPara}>Technogram</div></a>
@@ -30,7 +30,7 @@ const Page = () => {
                 <div className={styles.tuEventMain}>
                     <div className={styles.tuCard}>
                         <div className={styles.tucImg}>
-                            <img src="/img/techudbhav/tu6.jpg" alt="" />
+                            <img src="/img/techudbhav/tu6.jpg" alt="image" />
                             <span>technogram</span>
                         </div>
                         <div className={styles.tucText} id='tu6'>
@@ -43,7 +43,7 @@ const Page = () => {
 
                     <div className={styles.tuCard}>
                         <div className={styles.tucImg}>
-                            <img src="/img/techudbhav/tu5.jpg" alt="" />
+                            <img src="/img/techudbhav/tu5.jpg" alt="image" />
                             <span>Robo Soccer</span>
                         </div>
                         <div className={styles.tucText} id='tu5'>
@@ -56,7 +56,7 @@ const Page = () => {
 
                     <div className={styles.tuCard}>
                         <div className={styles.tucImg}>
-                            <img src="/img/techudbhav/tu4.jpg" alt="" />
+                            <img src="/img/techudbhav/tu4.jpg" alt="image" />
                             <span>Ui-Xplore</span>
                         </div>
                         <div className={styles.tucText} id='tu4'>
@@ -69,7 +69,7 @@ const Page = () => {
 
                     <div className={styles.tuCard}>
                         <div className={styles.tucImg}>
-                            <img src="/img/techudbhav/tu3.jpg" alt="" />
+                            <img src="/img/techudbhav/tu3.jpg" alt="image" />
                             <span>Cod-e-clash</span>
                         </div>
                         <div className={styles.tucText} id='tu3'>
@@ -82,7 +82,7 @@ const Page = () => {
 
                     <div className={styles.tuCard}>
                         <div className={styles.tucImg}>
-                            <img src="/img/techudbhav/tu2.jpg" alt="" />
+                            <img src="/img/techudbhav/tu2.jpg" alt="image" />
                             <span>Grafitti</span>
                         </div>
                         <div className={styles.tucText} id='tu2'>
@@ -95,7 +95,7 @@ const Page = () => {
 
                     <div className={styles.tuCard}>
                         <div className={styles.tucImg}>
-                            <img src="/img/techudbhav/tu1.jpg" alt="" />
+                            <img src="/img/techudbhav/tu1.jpg" alt="image" />
                             <span>Mr. & Miss Technocrat</span>
                         </div>
                         <div className={styles.tucText} id='tu1'>

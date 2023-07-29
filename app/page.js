@@ -30,7 +30,7 @@ export default function Home() {
         <div className={styles.hpwPara}> IETE Students Forum, BIT Sindri is a sub branch of IETE National body operating through various centers, spread all over India and abroad. Our aim is the empowerment of youth through technical education and skill development.</div>
       </div>
 
-      {/* <img className={styles.homeBg} src="/img/home/bg.webp" alt="" /> */}
+      {/* <img className={styles.homeBg} src="/img/home/bg.webp" alt="image" /> */}
       <video autoPlay loop muted playsInline className={styles.bgVideo}>
         <source src="/img/home/bg.mp4" type="video/mp4" style={{ width: '500px', height: '500px' }} />
       </video>
@@ -38,7 +38,7 @@ export default function Home() {
       <div className={styles.dotBoxWrap}>
         <a href="https://youtu.be/cQc7HDH8FEw">
           <div className={`${styles.homeDotBox} ${styles.homeDotBox1}`} data-aos="fade-right">
-            <img src="/img/home/homecode.jpg" className={styles.hdbImg} alt="" />
+            <img src="/img/home/homecode.jpg" className={styles.hdbImg} alt="image" />
             <div style={{ display: "flex", flexDirection: 'column', gap: ".32rem" }}>
               <div className={styles.hdbHeading}>Coding</div>
               <div className={styles.hdbPara}>We provide an environment of coding and Web Dev.</div>
@@ -47,7 +47,7 @@ export default function Home() {
         </a>
         <a href="#" >
           <div className={`${styles.homeDotBox} ${styles.homeDotBox2}`} data-aos="fade-left">
-            <img src="/img/home/homegraphic.jpg" className={styles.hdbImg} alt="" />
+            <img src="/img/home/homegraphic.jpg" className={styles.hdbImg} alt="image" />
             <div style={{ display: "flex", flexDirection: 'column', gap: ".32rem" }}>
               <div className={styles.hdbHeading}>Graphic Desg.</div>
               <div className={styles.hdbPara}>Graphic Designing is the core of Each student in IETE.</div>
@@ -56,7 +56,7 @@ export default function Home() {
         </a>
         <a href="https://youtu.be/R4E62IMw_mg">
           <div className={`${styles.homeDotBox} ${styles.homeDotBox3}`} data-aos="fade-left">
-            <img src="/img/home/homerobot.jpg" className={styles.hdbImg} alt="" />
+            <img src="/img/home/homerobot.jpg" className={styles.hdbImg} alt="image" />
             <div style={{ display: "flex", flexDirection: 'column', gap: ".32rem" }}>
               <div className={styles.hdbHeading}>Robotics</div>
               <div className={styles.hdbPara}>Afraid of Robotics, We are here to help you.</div>
@@ -73,7 +73,7 @@ export default function Home() {
           <div className={styles.heading}>Brief History</div>
 
           <div className={styles.heroBottomBrief}>
-            <img src="/img/home/ietemember.jpg" alt="" />
+            <img src="/img/home/ietemember.jpg" alt="image" />
             <div className={styles.heroBottomBriefText}>
               IETE Students Chapter, BIT Sindri was established in the year 2007, since then it is one of the fastest-growing clubs of BIT Sindri. In June 2020 we have attained an even higher and more notable level, yes we are now IETE Students Forum. IETE Students Forum, BIT Sindri is a sub branch of IETE National body operating through various centers, spread all over India and abroad. Our aim is the empowerment of youth through technical education and skill development.
             </div>
@@ -171,7 +171,7 @@ export default function Home() {
 
           <div className={styles.eventsList}>
             <div className={styles.eventCard}>
-              <img src="/img/home/le1.jpg" alt="" />
+              <img src="/img/home/le1.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
                 <div className={styles.eciName}>Nexus 2.0</div>
@@ -181,7 +181,7 @@ export default function Home() {
             </div>
 
             <div className={styles.eventCard}>
-              <img src="/img/home/le2.jpg" alt="" />
+              <img src="/img/home/le2.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
                 <div className={styles.eciName}>Webinar: Git-Github</div>
@@ -191,7 +191,7 @@ export default function Home() {
             </div>
 
             <div className={styles.eventCard}>
-              <img src="/img/home/le3.jpg" alt="" />
+              <img src="/img/home/le3.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
                 <div className={styles.eciName}>Webinar: Full Stack web dev</div>
@@ -201,7 +201,7 @@ export default function Home() {
             </div>
 
             <div className={styles.eventCard}>
-              <img src="/img/home/le4.jpg" alt="" />
+              <img src="/img/home/le4.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
                 <div className={styles.eciName}>Tech Udbhav</div>
@@ -211,7 +211,7 @@ export default function Home() {
             </div>
 
             <div className={styles.eventCard}>
-              <img src="/img/home/le5.jpg" alt="" />
+              <img src="/img/home/le5.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
                 <div className={styles.eciName}>Webinar: Wireless Tech.</div>
@@ -221,7 +221,7 @@ export default function Home() {
             </div>
 
             <div className={styles.eventCard}>
-              <img src="/img/home/le6.jpg" alt="" />
+              <img src="/img/home/le6.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
                 <div className={styles.eciName}>Webinar: VLSI</div>

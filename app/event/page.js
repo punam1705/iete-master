@@ -22,7 +22,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k23/e4.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k23/e4.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Nexus 2.0</h3>
@@ -35,7 +35,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k23/e3.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k23/e3.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Webinar: Git & Github</h3>
@@ -48,7 +48,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k23/e2.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k23/e2.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Webinar: Full Stack web Dev</h3>
@@ -69,7 +69,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k22/e7.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k22/e7.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Webinar: VLSI</h3>
@@ -82,7 +82,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k22/e6.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k22/e6.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Webinar: Wireless Tech.</h3>
@@ -95,7 +95,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k22/e5.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k22/e5.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Clu-e-minati</h3>
@@ -109,7 +109,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k22/e4.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k22/e4.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Festober</h3>
@@ -123,7 +123,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k22/e3.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k22/e3.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Encipher</h3>
@@ -135,7 +135,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k22/e2.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k22/e2.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Webinar on CP and DSA</h3>
@@ -151,7 +151,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k22/e1.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k22/e1.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Webinar: Product Based Comp.</h3>
@@ -168,7 +168,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k22/e0.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k22/e0.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Inquizitive</h3>
@@ -193,7 +193,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k21/e3.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k21/e3.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Udyamita</h3>
@@ -210,7 +210,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k21/e2.png" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k21/e2.png" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Explicar</h3>
@@ -227,7 +227,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k21/e1.png" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k21/e1.png" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Hacklane</h3>
@@ -254,7 +254,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k20/e6.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k20/e6.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Worksop on API 101</h3>
@@ -270,7 +270,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k20/e5.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k20/e5.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">NeXus</h3>
@@ -290,7 +290,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k20/e4.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k20/e4.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Workshop on WordPress</h3>
@@ -305,7 +305,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k20/e3.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k20/e3.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Workshop on WebDev</h3>
@@ -320,7 +320,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k20/e2.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k20/e2.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Écrire</h3>
@@ -339,7 +339,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k20/e1.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k20/e1.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Webinar Series</h3>
@@ -365,7 +365,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k19/e6.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k19/e6.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">PUBG Championship</h3>
@@ -381,7 +381,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k19/e5.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k19/e5.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Unicorn</h3>
@@ -397,7 +397,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k19/e4.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k19/e4.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Seminar</h3>
@@ -410,7 +410,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k19/e3.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k19/e3.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Graffiti</h3>
@@ -430,7 +430,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k19/e2.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k19/e2.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Ekryptics</h3>
@@ -447,7 +447,7 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
-                                <img alt="" src="/img/events/2k19/e1.jpg" className={styles.eventCardImg} />
+                                <img alt="image" src="/img/events/2k19/e1.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
                                 <h3 className="h4">Tech Vaganza</h3>
