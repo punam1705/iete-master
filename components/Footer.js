@@ -37,8 +37,8 @@ const Footer = () => {
                     <ul className={styles.box}>
                         <li className={styles.link_name}>Contact Us</li>
                         <li>ietebits@gmail.com</li>
-                        <li>+91-7903607014 </li>
-                        <li>+91-9934438281</li>
+                        <li>+91-6205322261 </li>
+                        <li>+91-7004178568 </li>
                     </ul>
                     <ul className={`${styles.box} ${styles.inputBox}`}>
                         <li className={styles.link_name}>Get in touch</li>
@@ -52,7 +52,7 @@ const Footer = () => {
                     <span className={styles.copyright_text}>Copyright © 2023 <a href="#">IETE SF.</a>All rights reserved</span>
                     <span className={styles.policy_terms}>
                         Designed & Developed By:
-                        <a href="https://imalive.netlify.app">Deepak Kumar</a>
+                        <a href="https://imalive.netlify.app">Team IETE</a>
                     </span>
                 </div>
             </div>

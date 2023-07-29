@@ -12,6 +12,7 @@ import { BiCalendarEvent } from 'react-icons/bi'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Link from 'next/link'
 
 export default function Home() {
   useEffect(() => {
@@ -63,6 +64,33 @@ export default function Home() {
             </div>
           </div>
         </a>
+        <a href="https://youtu.be/R4E62IMw_mg">
+          <div className={`${styles.homeDotBox} ${styles.homeDotBox4}`} data-aos="fade-left">
+            <img src="/img/home/homevideo.png" className={styles.hdbImg} alt="image" />
+            <div style={{ display: "flex", flexDirection: 'column', gap: ".32rem" }}>
+              <div className={styles.hdbHeading}>Video</div>
+              <div className={styles.hdbPara}>We in the field of Video Editing</div>
+            </div>
+          </div>
+        </a>
+        <a href="https://youtu.be/R4E62IMw_mg">
+          <div className={`${styles.homeDotBox} ${styles.homeDotBox5}`} data-aos="fade-left">
+            <img src="/img/home/homemanage.jpg" className={styles.hdbImg} alt="image" />
+            <div style={{ display: "flex", flexDirection: 'column', gap: ".32rem" }}>
+              <div className={styles.hdbHeading}>Management</div>
+              <div className={styles.hdbPara}>We also teach management,  as we are Techno-management club.</div>
+            </div>
+          </div>
+        </a>
+        <a href="https://youtu.be/R4E62IMw_mg">
+          <div className={`${styles.homeDotBox} ${styles.homeDotBox6}`} data-aos="fade-left">
+            <img src="/img/home/homeai.jpg" className={styles.hdbImg} alt="image" />
+            <div style={{ display: "flex", flexDirection: 'column', gap: ".32rem" }}>
+              <div className={styles.hdbHeading}>AI</div>
+              <div className={styles.hdbPara}>The emerginf field of AI.</div>
+            </div>
+          </div>
+        </a>
       </div>
 
       <div className={styles.heroBottom}>
@@ -73,9 +101,9 @@ export default function Home() {
           <div className={styles.heading}>Brief History</div>
 
           <div className={styles.heroBottomBrief}>
-            <img src="/img/home/ietemember.jpg" alt="image" />
+            <img src="/img/home/member.jpeg" alt="image" />
             <div className={styles.heroBottomBriefText}>
-              IETE Students Chapter, BIT Sindri was established in the year 2007, since then it is one of the fastest-growing clubs of BIT Sindri. In June 2020 we have attained an even higher and more notable level, yes we are now IETE Students Forum. IETE Students Forum, BIT Sindri is a sub branch of IETE National body operating through various centers, spread all over India and abroad. Our aim is the empowerment of youth through technical education and skill development.
+              <span style={{fontWeight: 700, fontSize: "1.2rem"}}>IETE Students Chapter, BIT Sindri</span> was established in the year 2007, since then it is one of the fastest-growing clubs of BIT Sindri. In June 2020 we have attained an even higher and more notable level, yes we are now IETE Students Forum. IETE Students Forum, BIT Sindri is a sub branch of IETE National body operating through various centers, spread all over India and abroad. Our aim is the empowerment of youth through technical education and skill development.
             </div>
           </div>
         </div>
@@ -180,7 +208,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className={styles.eventCard}>
+            <Link href="https://www.youtube.com/live/newY0JpJqqw?feature=share" className={styles.eventCard}>
               <img src="/img/home/le2.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -188,9 +216,9 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 07-07-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.eventCard}>
+            <Link href="https://www.youtube.com/live/XpAnexnjr94?feature=share" className={styles.eventCard}>
               <img src="/img/home/le3.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -198,9 +226,9 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 26-06-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.eventCard}>
+            <Link href="https://youtu.be/dferuBDSwiw" className={styles.eventCard}>
               <img src="/img/home/le4.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -208,9 +236,9 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 12-02-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.eventCard}>
+            <Link href='https://www.youtube.com/live/Y5DQ3ZK6-rs?feature=share' className={styles.eventCard}>
               <img src="/img/home/le5.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -218,9 +246,9 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 13-12-2022</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </div>
+            </Link>
 
-            <div className={styles.eventCard}>
+            <Link href="https://www.youtube.com/live/98hSssUoNrI?feature=share" className={styles.eventCard}>
               <img src="/img/home/le6.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -228,7 +256,7 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 12-12-2022</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
