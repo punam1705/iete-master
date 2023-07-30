@@ -12,7 +12,7 @@ import { FaUsersViewfinder } from 'react-icons/fa6'
 import { LiaUserGraduateSolid } from 'react-icons/lia'
 
 const Navbar = () => {
-    const [toggleMenu, setToggleMenu] = useState(false)
+    const [toggleMenu, setToggleMenu] = useState(true)
 
     const toggleNav = () => {
         setToggleMenu(!toggleMenu)
