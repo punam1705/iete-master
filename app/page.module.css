@@ -201,6 +201,11 @@ img.hdbImg {
 .heroBottomBrief img {
     width: 50%;
     border-radius: 10px;
+    transition: .4s;
+}
+
+.heroBottomBrief img:hover{
+    transform: scale(1.05);
 }
 
 .heroBottomText {

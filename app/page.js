@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
         </a>
-        <a href="#" >
+        <a href="https://www.youtube.com/watch?v=S1PhRa3Ty54&list=PLyBrbcx2_359jonzTDYvB4oO-XSQlw4cl&pp=iAQB" >
           <div className={`${styles.homeDotBox} ${styles.homeDotBox2}`} data-aos="fade-left">
             <img src="/img/home/homegraphic.jpg" className={styles.hdbImg} alt="image" />
             <div style={{ display: "flex", flexDirection: 'column', gap: ".32rem" }}>
@@ -64,16 +64,16 @@ export default function Home() {
             </div>
           </div>
         </a>
-        <a href="https://youtu.be/R4E62IMw_mg">
+        <a href="https://youtu.be/OwaWiT_9uCg">
           <div className={`${styles.homeDotBox} ${styles.homeDotBox4}`} data-aos="fade-left">
             <img src="/img/home/homevideo.png" className={styles.hdbImg} alt="image" />
             <div style={{ display: "flex", flexDirection: 'column', gap: ".32rem" }}>
-              <div className={styles.hdbHeading}>Video</div>
+              <div className={styles.hdbHeading}>Video Editing</div>
               <div className={styles.hdbPara}>We in the field of Video Editing</div>
             </div>
           </div>
         </a>
-        <a href="https://youtu.be/R4E62IMw_mg">
+        <a href="https://youtu.be/aUepRSlLb2g">
           <div className={`${styles.homeDotBox} ${styles.homeDotBox5}`} data-aos="fade-left">
             <img src="/img/home/homemanage.jpg" className={styles.hdbImg} alt="image" />
             <div style={{ display: "flex", flexDirection: 'column', gap: ".32rem" }}>
@@ -82,12 +82,12 @@ export default function Home() {
             </div>
           </div>
         </a>
-        <a href="https://youtu.be/R4E62IMw_mg">
+        <a href="https://youtu.be/zQVAXRDXcBs">
           <div className={`${styles.homeDotBox} ${styles.homeDotBox6}`} data-aos="fade-left">
             <img src="/img/home/homeai.jpg" className={styles.hdbImg} alt="image" />
             <div style={{ display: "flex", flexDirection: 'column', gap: ".32rem" }}>
-              <div className={styles.hdbHeading}>AI</div>
-              <div className={styles.hdbPara}>The emerginf field of AI.</div>
+              <div className={styles.hdbHeading}>AI/ML</div>
+              <div className={styles.hdbPara}>The emerging field of AI.</div>
             </div>
           </div>
         </a>
@@ -99,11 +99,11 @@ export default function Home() {
             <div className={styles.subHeading}><FaUsers />Who we are</div>
           </div>
           <div className={styles.heading}>Brief History</div>
-
+          <div style={{ fontWeight: 700, fontSize: "1.2rem", textAlign: "center" }}>IETE Students Chapter, BIT Sindri</div>
           <div className={styles.heroBottomBrief}>
             <img src="/img/home/member.jpeg" alt="image" />
             <div className={styles.heroBottomBriefText}>
-              <span style={{fontWeight: 700, fontSize: "1.2rem"}}>IETE Students Chapter, BIT Sindri</span> was established in the year 2007, since then it is one of the fastest-growing clubs of BIT Sindri. In June 2020 we have attained an even higher and more notable level, yes we are now IETE Students Forum. IETE Students Forum, BIT Sindri is a sub branch of IETE National body operating through various centers, spread all over India and abroad. Our aim is the empowerment of youth through technical education and skill development.
+              was established in the year 2007, since then it is one of the fastest-growing clubs of BIT Sindri. In June 2020 we have attained an even higher and more notable level, yes we are now IETE Students Forum. IETE Students Forum, BIT Sindri is a sub branch of IETE National body operating through various centers, spread all over India and abroad. Our aim is the empowerment of youth through technical education and skill development.
             </div>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function Home() {
           <div className={styles.heading}>Iete at bit sindri</div>
 
           <div className={styles.aboutBriefDes} >
-            <a href="https://youtube.com/@IETEBITSindri">
+            <a href="https://www.youtube.com/watch?v=j8LvyKDkcCc&list=PLyBrbcx2_35-tt7ZskPrKj4_xnDPWB684&pp=iAQB">
               <div className={styles.abdCard}>
                 <div className={styles.abdcIcon}>
                   <PiChalkboardTeacherFill />
@@ -127,7 +127,7 @@ export default function Home() {
               </div>
             </a>
 
-            <a href="https://youtube.com/@IETEBITSindri">
+            <a href="https://www.youtube.com/watch?v=jN-iPjw_XUg&list=PLyBrbcx2_3580J3CQbmLz0Yy5xE39ObKK&pp=iAQB">
               <div className={styles.abdCard}>
                 <div className={styles.abdcIcon}>
                   <GiTeacher />
@@ -198,7 +198,17 @@ export default function Home() {
           <div className={styles.heading}>Latest Events</div>
 
           <div className={styles.eventsList}>
-            <div className={styles.eventCard}>
+            <Link href="https://youtu.be/E0FGIxbe4pc" className={styles.eventCard}>
+              <img src="/img/home/le0.jpeg" alt="image" />
+
+              <div className={styles.eventCardInfo}>
+                <div className={styles.eciName}>Webinar: Carmel Giridih</div>
+                <div className={styles.eciDate}>Date: 21-07-2023</div>
+                <div className={styles.eciLink}></div>
+              </div>
+            </Link>
+
+            <Link href="http://nexus2.ietebits.com/" className={styles.eventCard}>
               <img src="/img/home/le1.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -206,7 +216,7 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 28-06-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </div>
+            </Link>
 
             <Link href="https://www.youtube.com/live/newY0JpJqqw?feature=share" className={styles.eventCard}>
               <img src="/img/home/le2.jpg" alt="image" />
@@ -244,16 +254,6 @@ export default function Home() {
               <div className={styles.eventCardInfo}>
                 <div className={styles.eciName}>Webinar: Wireless Tech.</div>
                 <div className={styles.eciDate}>Date: 13-12-2022</div>
-                <div className={styles.eciLink}></div>
-              </div>
-            </Link>
-
-            <Link href="https://www.youtube.com/live/98hSssUoNrI?feature=share" className={styles.eventCard}>
-              <img src="/img/home/le6.jpg" alt="image" />
-
-              <div className={styles.eventCardInfo}>
-                <div className={styles.eciName}>Webinar: VLSI</div>
-                <div className={styles.eciDate}>Date: 12-12-2022</div>
                 <div className={styles.eciLink}></div>
               </div>
             </Link>

@@ -22,6 +22,19 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k23/e5.jpeg" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">Webinar: Carmel Giridih</h3>
+                                <p>
+                                    We conducted a workshop on Web Development and Robotics in Carmel School, Giridih, around 76 km away from the institution for students of classes 9-12.
+                                    The IETE students showcased the roadmap for full-stack web development, including website creation, and introduced them to the fascinating world of IoT and Arduino, where students learned about building remote-controlled wireless robots. Additionally, the students were introduced to the plethora of career opportunities in these fields.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
                                 <img alt="image" src="/img/events/2k23/e4.jpg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
@@ -54,6 +67,18 @@ const page = () => {
                                 <h3 className="h4">Webinar: Full Stack web Dev</h3>
                                 <p>
                                     We are extremely delighted to announce that 𝗠𝗿. Rahul Gupta, a Software developer at Freecharge Pyments , Intern at swiggy and rupify and an alumunus of BITS Pilani will be taking up the role to introduce you all to the detailed roadmap to become a Full Stack Web Developer.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k23/e1.jpg" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">TechUdbhav: Annual Techfest</h3>
+                                <p>
+                                    Tech Udbhav is Annual Techno-Management Fest of BIT Sindri which is organised by IETE Students Forum, BIT Sindri. Tech Udbhav consists of a number of events for students to participate into it. These events are specially choosen and designed for the students so that they can use and enhance their Technical and Managerial skills and win exiciting prizes.
                                 </p>
                             </div>
                         </div>
@@ -128,7 +153,7 @@ const page = () => {
                             <div className={styles.ecText}>
                                 <h3 className="h4">Encipher</h3>
                                 <p>
-                                ETE Students Forum is here with another riveting event - 𝐄𝐧𝐜𝐢𝐩𝐡𝐞𝐫 to help you put up with the current developing world. Encipher is a 𝟏𝟒 𝐝𝐚𝐲 𝐥𝐨𝐧𝐠 coding competition, in which participants will be required to solve two questions every day. The one who solves the maximum number of questions in a timely manner will ultimately be declared as 𝐆𝐫𝐚𝐧𝐝𝐦𝐚𝐬𝐭𝐞𝐫 𝐨𝐟 𝐁𝐈𝐓!
+                                    ETE Students Forum is here with another riveting event - 𝐄𝐧𝐜𝐢𝐩𝐡𝐞𝐫 to help you put up with the current developing world. Encipher is a 𝟏𝟒 𝐝𝐚𝐲 𝐥𝐨𝐧𝐠 coding competition, in which participants will be required to solve two questions every day. The one who solves the maximum number of questions in a timely manner will ultimately be declared as 𝐆𝐫𝐚𝐧𝐝𝐦𝐚𝐬𝐭𝐞𝐫 𝐨𝐟 𝐁𝐈𝐓!
                                 </p>
                             </div>
                         </div>
@@ -148,40 +173,6 @@ const page = () => {
                                 </p>
                             </div>
                         </div>
-
-                        <div className={styles.eventCard}>
-                            <div className={styles.ecImage}>
-                                <img alt="image" src="/img/events/2k22/e1.jpg" className={styles.eventCardImg} />
-                            </div>
-                            <div className={styles.ecText}>
-                                <h3 className="h4">Webinar: Product Based Comp.</h3>
-                                <p>
-                                    IETE Students Forum presented a golden opportunity, in the form of a webinar,to
-                                    aspiring
-                                    coders who dream to land a job in a product based comapny. Mr. Monu Kumar, an expert at
-                                    Coding Blocks, took up the task to provide the viewers with a detailed rodmap to a
-                                    career in
-                                    software engineering.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className={styles.eventCard}>
-                            <div className={styles.ecImage}>
-                                <img alt="image" src="/img/events/2k22/e0.jpg" className={styles.eventCardImg} />
-                            </div>
-                            <div className={styles.ecText}>
-                                <h3 className="h4">Inquizitive</h3>
-                                <p>
-                                    IETE Students Forum organised an exhilarating quiz competition named Inquizitive, to
-                                    enable the participants to showcase their command in tech. The quiz included topics like
-                                    SQL, HTML and logical reasoning.There was a massive number of participants who came
-                                    forward
-                                    to test themselves. Exciting prizes were awarded to the winners.
-                                </p>
-                            </div>
-                        </div>
-
                     </div>
 
                 </section>
@@ -241,6 +232,40 @@ const page = () => {
                                 </p>
                             </div>
                         </div>
+
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k22/e1.jpg" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">Webinar: Product Based Comp.</h3>
+                                <p>
+                                    IETE Students Forum presented a golden opportunity, in the form of a webinar,to
+                                    aspiring
+                                    coders who dream to land a job in a product based comapny. Mr. Monu Kumar, an expert at
+                                    Coding Blocks, took up the task to provide the viewers with a detailed rodmap to a
+                                    career in
+                                    software engineering.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k22/e0.jpg" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">Inquizitive</h3>
+                                <p>
+                                    IETE Students Forum organised an exhilarating quiz competition named Inquizitive, to
+                                    enable the participants to showcase their command in tech. The quiz included topics like
+                                    SQL, HTML and logical reasoning.There was a massive number of participants who came
+                                    forward
+                                    to test themselves. Exciting prizes were awarded to the winners.
+                                </p>
+                            </div>
+                        </div>
+
 
                     </div>
 

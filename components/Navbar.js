@@ -12,7 +12,7 @@ import { FaUsersViewfinder } from 'react-icons/fa6'
 import { LiaUserGraduateSolid } from 'react-icons/lia'
 
 const Navbar = () => {
-    const [toggleMenu, setToggleMenu] = useState(true)
+    const [toggleMenu, setToggleMenu] = useState(false)
 
     const toggleNav = () => {
         setToggleMenu(!toggleMenu)
@@ -31,19 +31,7 @@ const Navbar = () => {
                                 <ul>
                                     <li><Link href='/about'><div className={styles.navNewIcon}><BsInfoCircle /></div>About</Link></li>
                                     <li><Link href='/event'><div className={styles.navNewIcon}><BsCalendarEvent /></div>Events</Link></li>
-                                    {/* <li><Link href='#'>Glimpse</Link>
-                                        <ul>
-                                            <li><Link href='/event'><BsCalendar2EventFill />Events</Link></li>
-                                            <li><Link href='/gallery'><RiGalleryFill />Gallery</Link></li>
-                                        </ul>
-                                    </li> */}
                                     <li><Link href='/member'><div className={styles.navNewIcon}><FaUsersViewfinder /></div>Members</Link></li>
-                                    {/* <li><Link href='#'>Associate</Link>
-                                        <ul>
-                                            <li><Link href='/member'><FaUsersViewfinder />Members</Link></li>
-                                            <li><Link href='/'><FaGraduationCap />Alumni</Link></li>
-                                        </ul>
-                                    </li> */}
                                     <li><Link href='/gallery'><div className={styles.navNewIcon}><RiGalleryLine /></div>Gallery</Link></li>
                                     <li><Link href='/alumni'><div className={styles.navNewIcon}><LiaUserGraduateSolid /></div>Alumni</Link></li>
                                     <li><Link href='/contact'><div className={styles.navNewIcon}><LiaUserGraduateSolid /></div>Contact</Link></li>
