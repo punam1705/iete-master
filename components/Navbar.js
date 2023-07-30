@@ -43,7 +43,7 @@ const Navbar = () => {
 
                     <div className={styles.navExtra}>
                         <Link href='/techUdbhav'>
-                            <div className={styles.navBtn}>Tech Udbhav</div>
+                            <div className={styles.navBtn}> <img src='/img/techudbhav/tulogo.png' alt='TULogo' />Tech Udbhav</div>
                         </Link>
                         <div className={styles.navIcon} onClick={toggleNav}><HiOutlineMenuAlt3 /></div>
                     </div>

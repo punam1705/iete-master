@@ -11,6 +11,7 @@ const Page = () => {
                 <div className={styles.tupwPara}>
                     Tech Udbhav is Annual Techno-Management Fest of BIT Sindri which is organised by IETE Students Forum, BIT Sindri. Tech Udbhav consists of a number of events for students to participate into it. These events are specially choosen and designed for the students so that they can use and enhance their Technical and Managerial skills and win exiciting prizes.
                 </div>
+                <div className={styles.tupwNew}><a href="https://techudbhav.ietebits.com/">VISIT TECH-UDBHAV WEBSITE</a></div>
             </div>
 
             <div className={styles.tuEvent}>

@@ -6,10 +6,10 @@ const page = () => {
     return (
         <div className={styles.eventPage}>
             <div className={styles.eventPageWrap}>
-                <div className={styles.epwNew}><BsStars />Our Annual Tech Fest is Tech Udbhav</div>
+                <div className={styles.epwNew}><BsStars />Tech Udbhav: Our Annual Techno-Management Fest</div>
                 <div className={styles.epwHeading}>Our Events</div>
                 <div className={styles.epwPara}>
-                    We conduct a number of events for students to participate into it. These events are specially choosen and designed for the students so that they can use and enhance their Technical and
+                    We conduct a number of events for students to participate. These events are specially choosen and designed for the students so that they can use and enhance their Technical and
                     Managerial skills and win exiciting prizes.
                 </div>
             </div>
@@ -25,7 +25,7 @@ const page = () => {
                                 <img alt="image" src="/img/events/2k23/e5.jpeg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
-                                <h3 className="h4">Webinar: Carmel Giridih</h3>
+                                <h3 className="h4">Workshop: Carmel Giridih</h3>
                                 <p>
                                     We conducted a workshop on Web Development and Robotics in Carmel School, Giridih, around 76 km away from the institution for students of classes 9-12.
                                     The IETE students showcased the roadmap for full-stack web development, including website creation, and introduced them to the fascinating world of IoT and Arduino, where students learned about building remote-controlled wireless robots. Additionally, the students were introduced to the plethora of career opportunities in these fields.

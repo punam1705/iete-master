@@ -25,7 +25,7 @@ const Page = () => {
             <div className={styles.memberListWrap}>
                 <div className={styles.memberBox}>
 
-                    <div className={styles.heading}>Office Bearers</div>
+                    <div className={styles.heading}>Board Of Directors</div>
 
                     <div className={styles.memberWrapper}>
                         <Tilt>
@@ -349,7 +349,7 @@ const Page = () => {
                                 <img src="/img/members/2k20/vijay.jpg" alt="image" />
                                 <div className={styles.memberText}>
                                     <h2>Vijay Lowada</h2>
-                                    <p>Head of Opr. and event in-charge</p>
+                                    <p>Head of Operations and Event in-charge</p>
 
                                     <div className={styles.memberSubText}>
                                         <h4>Elec. & com. engineering</h4>
@@ -364,7 +364,7 @@ const Page = () => {
                                 <img src="/img/members/2k20/aman.jpg" alt="image" />
                                 <div className={styles.memberText}>
                                     <h2>Aman Kr. Singh</h2>
-                                    <p>Treasurer and sponshership head</p>
+                                    <p>Treasurer and sponsorship head</p>
 
                                     <div className={styles.memberSubText}>
                                         <h4>Information Technology</h4>
@@ -394,7 +394,7 @@ const Page = () => {
                                 <img src="/img/members/2k20/aniket.jpg" alt="image" />
                                 <div className={styles.memberText}>
                                     <h2>Aniket kr. gupta</h2>
-                                    <p>Alumni & PRO Incharge</p>
+                                    <p>Alumni Incharge & PRO</p>
 
                                     <div className={styles.memberSubText}>
                                         <h4>Electrical Engineering</h4>
@@ -441,7 +441,7 @@ const Page = () => {
 
                 <div className={styles.memberBox}>
 
-                    <div className={styles.heading}>New Comers</div>
+                    <div className={styles.heading}>Next Gen</div>
 
                     <div className={styles.memberWrapper}>
                         <Tilt>
