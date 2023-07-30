@@ -13,11 +13,11 @@ const Footer = () => {
                         <span className={styles.logo_name}>IETE</span>
                     </div>
                     <div className={styles.mediaIcons}>
-                        <a href="#"><FaFacebookF /></a>
-                        <a href="#"><FaTwitter /></a>
-                        <a href="#"><FaInstagram /></a>
-                        <a href="#"><FaLinkedinIn /></a>
-                        <a href="#"><FaYoutube /></a>
+                        <a href="https://www.facebook.com/ietebits/"><FaFacebookF /></a>
+                        <a href="https://twitter.com/IETE_BITS"><FaTwitter /></a>
+                        <a href="https://www.instagram.com/ietebits/"><FaInstagram /></a>
+                        <a href="https://www.linkedin.com/company/42721036/admin/"><FaLinkedinIn /></a>
+                        <a href="https://www.youtube.com/channel/UC8xo4Ru1Pask-hOM7j_YO-Q"><FaYoutube /></a>
                     </div>
                 </div>
                 <div className={styles.linkBoxes}>
@@ -36,9 +36,9 @@ const Footer = () => {
                     </ul>
                     <ul className={styles.box}>
                         <li className={styles.link_name}>Contact Us</li>
-                        <li>ietebits@gmail.com</li>
+                        <li>contact@ietebits.com</li>
                         <li>+91-6205322261 </li>
-                        <li>+91-7004178568 </li>
+                        <li>+91-7003290637 </li>
                     </ul>
                     <ul className={`${styles.box} ${styles.inputBox}`}>
                         <li className={styles.link_name}>Get in touch</li>
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
             <div className={styles.bottomDetails}>
                 <div className={styles.bottom_text}>
-                    <span className={styles.copyright_text}>Copyright © 2023 <a href="#">IETE SF.</a>All rights reserved</span>
+                    <span className={styles.copyright_text}>Copyright © 2023 <Link href="/">IETE SF.</Link>All rights reserved</span>
                     <span className={styles.policy_terms}>
                         Designed & Developed By:
                         <a href="https://imalive.netlify.app">Team IETE</a>
