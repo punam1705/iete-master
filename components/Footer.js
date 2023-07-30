@@ -51,8 +51,7 @@ const Footer = () => {
                 <div className={styles.bottom_text}>
                     <span className={styles.copyright_text}>Copyright © 2023 <Link href="/">IETE SF.</Link>All rights reserved</span>
                     <span className={styles.policy_terms}>
-                        Designed & Developed By:
-                        <a href="https://imalive.netlify.app">Team IETE</a>
+                        Designed & Developed By: Team IETE
                     </span>
                 </div>
             </div>
