@@ -9,7 +9,7 @@ import { BsCalendar2EventFill, BsCalendarEvent, BsInfoCircle } from 'react-icons
 import { RiGalleryFill, RiGalleryLine } from 'react-icons/ri'
 import { FaGraduationCap } from 'react-icons/fa'
 import { FaUsersViewfinder } from 'react-icons/fa6'
-import { LiaUserGraduateSolid } from 'react-icons/lia'
+import { LiaBlogSolid, LiaUserGraduateSolid } from 'react-icons/lia'
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(true)
@@ -35,6 +35,7 @@ const Navbar = () => {
                                     <li><Link href='/gallery'><div className={styles.navNewIcon}><RiGalleryLine /></div>Gallery</Link></li>
                                     <li><Link href='/alumni'><div className={styles.navNewIcon}><LiaUserGraduateSolid /></div>Alumni</Link></li>
                                     <li><Link href='/contact'><div className={styles.navNewIcon}><LiaUserGraduateSolid /></div>Contact</Link></li>
+                                    <li><a href='https://blog.ietebits.com/'><div className={styles.navNewIcon}><LiaBlogSolid /></div>Blogs</a></li>
                                 </ul>
                             </div>
                         }
