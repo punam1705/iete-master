@@ -46,9 +46,9 @@ const page = () => {
                     <div className={styles.heading}>Our professor</div>
                     <div className={styles.profWrap}>
                         <div className={styles.prof}>
-                            <img src="/img/about/dk.jpg" alt="" />
+                            <img src="/img/about/gs.jpg" alt="" />
                             <h2>Our Patron</h2>
-                            <p>Dr. D.K Singh</p>
+                            <p>Prof (Dr.) Ghanshyam</p>
                         </div>
                         <div className={styles.prof}>
                             <img src="/img/about/imteyazsir.jpg" alt="" />
