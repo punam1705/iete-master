@@ -12,19 +12,11 @@ import { FaUsersViewfinder } from 'react-icons/fa6'
 import { LiaUserGraduateSolid } from 'react-icons/lia'
 
 const Navbar = () => {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
     const [toggleMenu, setToggleMenu] = useState(false)
 
     const toggleNav = () => {
         setToggleMenu(!toggleMenu)
     }
-
-    useEffect(() => {
-        const changeWidth = () => {
-          setScreenWidth(window.innerWidth)
-        }
-        window.addEventListener('resize', changeWidth)
-      }, [])
     return (
         <>
             <div className={styles.navbar}>
@@ -34,7 +26,7 @@ const Navbar = () => {
                         <span>IETE</span>
                     </Link>
                     <div className={styles.navLinkWrap}>
-                        {(toggleMenu || screenWidth > 800) &&
+                        {toggleMenu &&
                             <div className={styles.navLink}>
                                 <ul>
                                     <li><Link href='/about'><div className={styles.navNewIcon}><BsInfoCircle /></div>About</Link></li>
