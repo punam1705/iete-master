@@ -35,7 +35,7 @@ const Page = () => {
                                     <h2>Harsha Sinha</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/harsha-sinha-9a51601a1/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -49,7 +49,7 @@ const Page = () => {
                                     <h2>Himanshu Jaiswal</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/himanshu832jaiswal/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -63,7 +63,7 @@ const Page = () => {
                                     <h2>Shubhangi Anand</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/shubhangi-anand/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -76,7 +76,7 @@ const Page = () => {
                                     <h2>Dhiraj Pandey</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/dhiraj-p07/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -89,7 +89,7 @@ const Page = () => {
                                     <h2>Laxmi Sharma</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/laxmi-sharma-84806a1b3/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -102,7 +102,7 @@ const Page = () => {
                                     <h2>Abhishek Ranjan</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/abhishek-ranjan-690a63195/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -115,7 +115,7 @@ const Page = () => {
                                     <h2>Anjali Kumari</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/anjali-kumari-6677421a7/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -128,7 +128,7 @@ const Page = () => {
                                     <h2>Harshit Pallove</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/harshit-pallove-a39505193/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -141,7 +141,7 @@ const Page = () => {
                                     <h2>Simran</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/simran-125152197/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -154,7 +154,7 @@ const Page = () => {
                                     <h2>Ayush Vijayant</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/ayush-vijayant-606566198/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -167,7 +167,7 @@ const Page = () => {
                                     <h2>Taniya Kumari</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/taniya-kumari-a997441a7/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -180,7 +180,7 @@ const Page = () => {
                                     <h2>Ravi Kumar</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/ravi-kumar-62bb6b158/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -193,7 +193,7 @@ const Page = () => {
                                     <h2>Juhi Sinha</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/juhi-sinha-8959981b3/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -206,7 +206,7 @@ const Page = () => {
                                     <h2>Anjali Priya</h2>
 
                                     <div className={styles.memberSubText}>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/anjali-priya-4235571a7/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -231,7 +231,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Computer Science</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/rajat1908/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -246,8 +246,8 @@ const Page = () => {
                                     <p>vice chairperson</p>
 
                                     <div className={styles.memberSubText}>
-                                        <h4>electrical engineering</h4>
-                                        <a href="#">
+                                        <h4>Electrical engineering</h4>
+                                        <a href="https://www.linkedin.com/in/mukund-prashar-4a9168214/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -263,7 +263,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>information technology</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/megha-singh-5a8ba41bb/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -273,12 +273,12 @@ const Page = () => {
                             <div className={styles.memberCard}>
                                 <img src="/img/members/2k20/rana.jpg" alt="image" />
                                 <div className={styles.memberText}>
-                                    <h2>rana randeep</h2>
-                                    <p>general secretary</p>
+                                    <h2>Rana randeep</h2>
+                                    <p>General secretary</p>
 
                                     <div className={styles.memberSubText}>
                                         <h4>Mechanical Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/rana-randeep-ab0aa0202/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -288,12 +288,12 @@ const Page = () => {
                             <div className={styles.memberCard}>
                                 <img src="/img/members/2k20/muskan.jpg" alt="image" />
                                 <div className={styles.memberText}>
-                                    <h2>muskan naaz</h2>
-                                    <p>joint secretary</p>
+                                    <h2>Muskan naaz</h2>
+                                    <p>Joint secretary</p>
 
                                     <div className={styles.memberSubText}>
                                         <h4>Chemical Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/muskan-naaz-a112ba208/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -304,11 +304,11 @@ const Page = () => {
                                 <img src="/img/members/2k20/sandeep.jpg" alt="image" />
                                 <div className={styles.memberText}>
                                     <h2>Sandeep Kr. Hembrom</h2>
-                                    <p>technical head</p>
+                                    <p>Technical head</p>
 
                                     <div className={styles.memberSubText}>
-                                        <h4>computer science</h4>
-                                        <a href="#">
+                                        <h4>Computer science</h4>
+                                        <a href="https://www.linkedin.com/in/sandeephembrom/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -318,12 +318,12 @@ const Page = () => {
                             <div className={styles.memberCard}>
                                 <img src="/img/members/2k20/shreya.jpg" alt="image" />
                                 <div className={styles.memberText}>
-                                    <h2>shreya prabha</h2>
-                                    <p>technical secretary</p>
+                                    <h2>Shreya prabha</h2>
+                                    <p>Technical secretary</p>
 
                                     <div className={styles.memberSubText}>
                                         <h4>Electrical Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/shreya-prabha-897b27197/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -334,11 +334,11 @@ const Page = () => {
                                 <img src="/img/members/2k20/vaidehi.jpg" alt="image" />
                                 <div className={styles.memberText}>
                                     <h2>Vaidehi singh</h2>
-                                    <p>creative and design head</p>
+                                    <p>Creative and Design head</p>
 
                                     <div className={styles.memberSubText}>
                                         <h4>Electrical engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/vaidehi-singh-a73186207/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -353,7 +353,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Elec. & com. engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/vijay2002/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -368,7 +368,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Information Technology</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/aman-singh-rajput-1b6b351bb/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -379,11 +379,11 @@ const Page = () => {
                                 <img src="/img/members/2k20/avinav.jpg" alt="image" />
                                 <div className={styles.memberText}>
                                     <h2>Avinav Raj singh</h2>
-                                    <p>media & marketing head</p>
+                                    <p>Media & marketing head</p>
 
                                     <div className={styles.memberSubText}>
-                                        <h4>chemical engineering</h4>
-                                        <a href="#">
+                                        <h4>Chemical engineering</h4>
+                                        <a href="https://www.linkedin.com/in/avinav-raj-632641207/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -393,12 +393,12 @@ const Page = () => {
                             <div className={styles.memberCard}>
                                 <img src="/img/members/2k20/aniket.jpg" alt="image" />
                                 <div className={styles.memberText}>
-                                    <h2>aniket kr. gupta</h2>
-                                    <p>alumni & PRO Incharge</p>
+                                    <h2>Aniket kr. gupta</h2>
+                                    <p>Alumni & PRO Incharge</p>
 
                                     <div className={styles.memberSubText}>
                                         <h4>Electrical Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/aniket-kumar-gupta-4469a1213/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -413,7 +413,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Mechanical Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/manisha-kumari-3a022a217/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -424,11 +424,11 @@ const Page = () => {
                                 <img src="/img/members/2k20/ruma.jpg" alt="image" />
                                 <div className={styles.memberText}>
                                     <h2>Ruma Rupal</h2>
-                                    <p>joint treasurer</p>
+                                    <p>Joint treasurer</p>
 
                                     <div className={styles.memberSubText}>
                                         <h4>Civil Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/ruma-rupal-56aa56236/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -452,7 +452,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Information Technology</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/adarsh-trivedi-10ba6a22a/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -462,11 +462,11 @@ const Page = () => {
                             <div className={styles.memberCard}>
                                 <img src="/img/members/2k21/Ashish.jpg" alt="image" />
                                 <div className={styles.memberText}>
-                                    <h2>Ashish Singh</h2>
+                                    <h2>Ashish Sinha</h2>
 
                                     <div className={styles.memberSubText}>
                                         <h4>Mining Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/ashish-sinha-82215124a/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -480,7 +480,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Electrical Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/priyanshu-mukherjee-259a09240/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -494,7 +494,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Chemical Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/supriya-sharma-6a2057225/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -508,7 +508,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Information Technology</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/deepak-kumar-052779225/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -522,7 +522,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Mechanical Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/avinash-kumar-yadav-99602520b/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -536,7 +536,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Electrical Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/saron-ekka/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -550,7 +550,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Elec. & Com. Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/rahul-jha-97200122b/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -564,7 +564,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Prod. & Ind. Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/rishita-dutta-24a91824a/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -578,7 +578,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Information Technology</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/rohit-kumar-grihi-009035240/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -592,7 +592,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Information Technology</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/ankitag39/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -606,7 +606,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Electrical Engineering</h4>
-                                        <a href="#">
+                                        <a href="">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -620,7 +620,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Civil Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/mehar-talat-a477b8232/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
@@ -634,7 +634,7 @@ const Page = () => {
 
                                     <div className={styles.memberSubText}>
                                         <h4>Prod. & Ind. Engineering</h4>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/ayushi-tewary-922ba5253/">
                                             <FaLinkedin />
                                         </a>
                                     </div>
