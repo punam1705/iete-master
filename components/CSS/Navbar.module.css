@@ -137,6 +137,7 @@
 @media (max-width: 800px) {
     .navbar nav .navExtra .navIcon {
         display: initial;
+        cursor: pointer;
     }
 
     .navbar nav .navLinkWrap .navLink {
