@@ -33,7 +33,7 @@ export default function Home() {
 
       {/* <img className={styles.homeBg} src="/img/home/bg.webp" alt="image" /> */}
       <video autoPlay loop muted playsInline className={styles.bgVideo}>
-        <source src="/img/home/bg.mp4" type="video/mp4" style={{ width: '500px', height: '500px' }} />
+        <source src="/img/home/cbg.mp4" type="video/mp4" style={{ width: '500px', height: '500px' }} />
       </video>
 
       <div className={styles.dotBoxWrap}>

@@ -11,7 +11,7 @@
     justify-content: center;
     gap: 1.5rem;
     height: 100vh;
-    background: url('../../public/img/gallery/bg.png');
+    background: url('../../public/img/desktopbg/7.webp');
     background-position: center;
     background-size: cover;
 }
@@ -82,7 +82,7 @@
 @media (max-width: 520px) {
     .galleryPageWrap {
         padding: 1rem;
-        background-image: url('../../public/img/mobile/7.png');
+        background-image: url('../../public/img/mobilebg/7.webp');
     }
 
     .gpwHeading {
