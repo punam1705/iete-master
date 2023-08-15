@@ -131,6 +131,7 @@
 @media (max-width: 520px) {
     .memberPageWrap {
         padding: 1rem;
+        background-image: url('../../public/img/mobile/5.png');
     }
 
     .mpwHeading {

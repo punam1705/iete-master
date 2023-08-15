@@ -82,6 +82,7 @@
 @media (max-width: 520px) {
     .galleryPageWrap {
         padding: 1rem;
+        background-image: url('../../public/img/mobile/7.png');
     }
 
     .gpwHeading {

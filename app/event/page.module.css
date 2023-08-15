@@ -133,6 +133,7 @@
 @media (max-width: 520px) {
     .eventPageWrap {
         padding: 1rem;
+        background-image: url('../../public/img/mobile/2.png');
     }
 
     .epwHeading {

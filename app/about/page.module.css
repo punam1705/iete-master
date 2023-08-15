@@ -186,6 +186,7 @@
 @media (max-width: 520px) {
     .aboutPageWrap {
         padding: 1rem;
+        background-image: url('../../public/img/mobile/8.png');
     }
 
     .apwHeading {

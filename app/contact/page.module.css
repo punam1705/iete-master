@@ -153,6 +153,7 @@
 @media (max-width: 520px) {
     .contactPageWrap {
         padding: 1rem;
+        background-image: url('../../public/img/mobile/6.png');
     }
 
     .cpwHeading {
