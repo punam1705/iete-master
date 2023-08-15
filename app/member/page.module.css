@@ -11,7 +11,7 @@
     justify-content: center;
     gap: 1.5rem;
     height: 100vh;
-    background: url('../../public/img/members/bg.png');
+    background: url('../../public/img/desktopbg/5.webp');
     background-position: center;
     background-size: cover;
 }
@@ -131,6 +131,7 @@
 @media (max-width: 520px) {
     .memberPageWrap {
         padding: 1rem;
+        background-image: url('../../public/img/mobilebg/5.webp');
     }
 
     .mpwHeading {

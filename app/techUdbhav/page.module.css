@@ -11,7 +11,7 @@
     justify-content: center;
     gap: 1.5rem;
     height: 100vh;
-    background: url('../../public/img/techudbhav/bg.png');
+    background: url('../../public/img/desktopbg/4.webp');
     background-position: center;
     background-size: cover;
 }
@@ -172,6 +172,7 @@
 @media (max-width: 520px) {
     .tuPageWrap {
         padding: 1rem;
+        background-image: url('../../public/img/mobilebg/4.webp');
     }
 
     .tupwHeading {
