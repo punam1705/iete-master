@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    text-align: center;
 }
 
 .gpwHeading {
@@ -69,14 +70,8 @@
     gap: 1rem;
 }
 
-.gWrapper {
-    overflow: hidden;
-    width: 90%;
-    margin: 0 auto;
-    padding: 4rem;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+.tuGlimpse{
+    padding: 2rem 40px;
 }
 
 .heading {
@@ -130,9 +125,8 @@
         font-size: .8rem;
     }
 
-    .gWrapper {
-        width: 100%;
-        padding: 4rem 1rem;
+    .tuGlimpse{
+        padding: 0 1rem;
     }
     .cardG{
         height: 250px;

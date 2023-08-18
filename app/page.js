@@ -15,6 +15,7 @@ import 'aos/dist/aos.css'
 import Link from 'next/link'
 
 export default function Home() {
+
   useEffect(() => {
     AOS.init({
       duration: 500,
@@ -27,7 +28,12 @@ export default function Home() {
 
       <div className={styles.homePageWrap}>
         <div className={styles.hpwNew}><BsStars />A club with subtle difference!</div>
-        <div className={styles.hpwHeading}>Simplemente El Mejor!</div>
+        {/* <div className={styles.hpwHeading}>Simplemente El Mejor!</div> */}
+        <div className={styles.hpwHeading}>IETE STUDENTS' FORUM</div>
+        <div className={styles.homeWelcomeWrap}>
+          <div className={styles.hpwHeadingWelcome} data-text="Welcomes Batch 2K23">Welcomes Batch 2K23</div>
+        </div>
+        <a href="https://forms.gle/jbUJiEMFqC54mny47" className={styles.homeWelcomeBtn}>JOIN US</a>
         <div className={styles.hpwPara}> IETE Students' Forum, BIT Sindri is a sub branch of IETE National body operating through various centers, spread all over India and abroad. Our aim is the empowerment of youth through technical education and skill development.</div>
       </div>
 
