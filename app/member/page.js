@@ -97,7 +97,7 @@ const Page = () => {
                             </div>
                         </Tilt><Tilt>
                             <div className={styles.memberCard}>
-                                <img src="/img/members/2k19/abhishek.jpg" alt="image" />
+                                <img src="/img/members/2k19/Abhishek.jpg" alt="image" />
                                 <div className={styles.memberText}>
                                     <h2>Abhishek Ranjan</h2>
 
