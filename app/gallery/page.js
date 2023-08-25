@@ -1,6 +1,9 @@
 import React from 'react'
 import { BsStars } from 'react-icons/bs'
 import styles from './page.module.css'
+import GlimpseSlider from '@/components/GlimpseSlider/GlimpseSlider'
+import TU23Data from '@/utils/TU23Data'
+import TU19Data from '@/utils/TU19Data'
 
 function Page() {
     return (
@@ -14,9 +17,17 @@ function Page() {
                 </div>
             </div>
 
-            {/* <div className={styles.}>
-                
-            </div> */}
+            <div className={styles.tuGlimpse}>
+                <div className={styles.heading}>TECH UDBHAV 2K23</div>
+
+                <GlimpseSlider data={TU23Data}/>
+            </div>
+
+            <div className={styles.tuGlimpse}>
+                <div className={styles.heading}>TECH UDBHAV 2K19</div>
+
+                <GlimpseSlider data={TU19Data}/>
+            </div>
         </div>
 
     )
