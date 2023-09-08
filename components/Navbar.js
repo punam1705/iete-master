@@ -10,6 +10,7 @@ import { RiGalleryFill, RiGalleryLine } from 'react-icons/ri'
 import { FaGraduationCap } from 'react-icons/fa'
 import { FaUsersViewfinder } from 'react-icons/fa6'
 import { LiaBlogSolid, LiaUserGraduateSolid } from 'react-icons/lia'
+import { BiSolidHome } from 'react-icons/bi'
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(true)
@@ -29,6 +30,7 @@ const Navbar = () => {
                         {toggleMenu &&
                             <div className={styles.navLink}>
                                 <ul>
+                                    <li><Link href='/'><div className={styles.navNewIcon}><BiSolidHome/></div>Home</Link></li>
                                     <li><Link href='/about'><div className={styles.navNewIcon}><BsInfoCircle /></div>About</Link></li>
                                     <li><Link href='/event'><div className={styles.navNewIcon}><BsCalendarEvent /></div>Events</Link></li>
                                     <li><Link href='/member'><div className={styles.navNewIcon}><FaUsersViewfinder /></div>Members</Link></li>
@@ -43,7 +45,7 @@ const Navbar = () => {
 
                     <div className={styles.navExtra}>
                         <Link href='/techUdbhav'>
-                            <div className={styles.navBtn}>Tech Udbhav</div>
+                            <div className={styles.navBtn}> <img src='/img/techudbhav/tulogo.png' alt='TULogo' />Tech Udbhav</div>
                         </Link>
                         <div className={styles.navIcon} onClick={toggleNav}><HiOutlineMenuAlt3 /></div>
                     </div>

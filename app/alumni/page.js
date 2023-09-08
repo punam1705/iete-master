@@ -9,10 +9,10 @@ const page = () => {
         <div className={styles.alumniPage}>
 
             <div className={styles.alumniPageWrap}>
-                <div className={styles.alumpwNew}><BsStars />We as a team, as a family!</div>
+                <div className={styles.alumpwNew}><BsStars />IETE family!</div>
                 <div className={styles.alumpwHeading}>Our Alumni</div>
                 <div className={styles.alumpwPara}>
-                    Lets have a golden opportunity of meeting our graduate peers who are great role models for current students and are often well placed to offer practical support to students as they start their careers.
+                    Lets have a golden opportunity of meeting our graduate peers who are our great role model for current students and are well placed to offer practical support to students as they start their careers.
                 </div>
             </div>
 

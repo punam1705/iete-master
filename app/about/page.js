@@ -11,7 +11,7 @@ const page = () => {
             <div className={styles.aboutPageWrap}>
                 <div className={styles.apwNew}><BsStars />We are simply the best!</div>
                 <div className={styles.apwHeading}>About IETE!</div>
-                <div className={styles.apwPara}>The Institution of Electronics and Telecommunication Engineers(IETE)is Indias leading recognised professional society devoted to advancment of science and technology of Electronics, Telecommunication & IT, Founded in 1953.</div>
+                <div className={styles.apwPara}>The Institution of Electronics and Telecommunication Engineers(IETE)is India's leading recognised professional society devoted to advancment of science and technology of Electronics, Telecommunication & IT, Founded in 1953.</div>
             </div>
 
             <div className={styles.aboutParent}>
@@ -43,12 +43,12 @@ const page = () => {
                     <div className={styles.subHeadingWrap}>
                         <div className={styles.subHeading}><BiSolidComponent />Meet our Professor Incharge</div>
                     </div>
-                    <div className={styles.heading}>Our professor</div>
+                    <div className={styles.heading}>Our Support</div>
                     <div className={styles.profWrap}>
                         <div className={styles.prof}>
-                            <img src="/img/about/gs.jpg" alt="" />
+                            <img src="/img/about/pr.jpg" alt="director" />
                             <h2>Our Patron</h2>
-                            <p>Prof (Dr.) Ghanshyam</p>
+                            <p>Prof. (Dr.) Pankaj Rai</p>
                         </div>
                         <div className={styles.prof}>
                             <img src="/img/about/imteyazsir.jpg" alt="" />
@@ -62,9 +62,9 @@ const page = () => {
             <div className={styles.aboutGlobe}>
                 <div className={styles.aboutGlobeWrap}>
                     <div className={styles.subHeadingWrap}>
-                        <div className={styles.subHeading}><BiSolidComponent />We cover All India</div>
+                        <div className={styles.subHeading}><BiSolidComponent />Pan-India</div>
                     </div>
-                    <div className={styles.heading}>IETE is Around India</div>
+                    <div className={styles.heading}>IETE is  All Around India</div>
                     <div className={styles.img}>
                         <img src="/img/about/around.png" alt="" />
                     </div>

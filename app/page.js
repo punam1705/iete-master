@@ -15,6 +15,7 @@ import 'aos/dist/aos.css'
 import Link from 'next/link'
 
 export default function Home() {
+
   useEffect(() => {
     AOS.init({
       duration: 500,
@@ -27,13 +28,18 @@ export default function Home() {
 
       <div className={styles.homePageWrap}>
         <div className={styles.hpwNew}><BsStars />A club with subtle difference!</div>
-        <div className={styles.hpwHeading}>Simplemente El Mejor!</div>
-        <div className={styles.hpwPara}> IETE Students Forum, BIT Sindri is a sub branch of IETE National body operating through various centers, spread all over India and abroad. Our aim is the empowerment of youth through technical education and skill development.</div>
+        {/* <div className={styles.hpwHeading}>Simplemente El Mejor!</div> */}
+        <div className={styles.hpwHeading}>IETE STUDENTS' FORUM</div>
+        <div className={styles.homeWelcomeWrap}>
+          <div className={styles.hpwHeadingWelcome} data-text="Welcomes Batch 2K23">Welcomes Batch 2K23</div>
+        </div>
+        <a href="https://forms.gle/jbUJiEMFqC54mny47" className={styles.homeWelcomeBtn}>JOIN US</a>
+        <div className={styles.hpwPara}> IETE Students' Forum, BIT Sindri is a sub branch of IETE National body operating through various centers, spread all over India and abroad. Our aim is the empowerment of youth through technical education and skill development.</div>
       </div>
 
       {/* <img className={styles.homeBg} src="/img/home/bg.webp" alt="image" /> */}
       <video autoPlay loop muted playsInline className={styles.bgVideo}>
-        <source src="/img/home/bg.mp4" type="video/mp4" style={{ width: '500px', height: '500px' }} />
+        <source src="/img/home/cbg.mp4" type="video/mp4" style={{ width: '500px', height: '500px' }} />
       </video>
 
       <div className={styles.dotBoxWrap}>
@@ -99,10 +105,10 @@ export default function Home() {
             <div className={styles.subHeading}><FaUsers />Who we are</div>
           </div>
           <div className={styles.heading}>Brief History</div>
-          <div style={{ fontWeight: 700, fontSize: "1.2rem", textAlign: "center" }}>IETE Students Chapter, BIT Sindri</div>
           <div className={styles.heroBottomBrief}>
             <img src="/img/home/member.jpeg" alt="image" />
             <div className={styles.heroBottomBriefText}>
+              IETE Students Chapter, BIT Sindri
               was established in the year 2007, since then it is one of the fastest-growing clubs of BIT Sindri. In June 2020 we have attained an even higher and more notable level, yes we are now IETE Students Forum. IETE Students Forum, BIT Sindri is a sub branch of IETE National body operating through various centers, spread all over India and abroad. Our aim is the empowerment of youth through technical education and skill development.
             </div>
           </div>
@@ -202,7 +208,7 @@ export default function Home() {
               <img src="/img/home/le0.jpeg" alt="image" />
 
               <div className={styles.eventCardInfo}>
-                <div className={styles.eciName}>Webinar: Carmel Giridih</div>
+                <div className={styles.eciName}>Workshop: Carmel Giridih</div>
                 <div className={styles.eciDate}>Date: 21-07-2023</div>
                 <div className={styles.eciLink}></div>
               </div>

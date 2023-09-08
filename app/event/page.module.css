@@ -11,7 +11,7 @@
     justify-content: center;
     gap: 1.5rem;
     height: 100vh;
-    background: url('../../public/img/events/bg.png');
+    background: url('../../public/img/desktopbg/2.webp');
     background-position: center;
     background-size: cover;
 }
@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    text-align: center;
 }
 
 .epwHeading {
@@ -133,6 +134,7 @@
 @media (max-width: 520px) {
     .eventPageWrap {
         padding: 1rem;
+        background-image: url('../../public/img/mobilebg/2.webp');
     }
 
     .epwHeading {

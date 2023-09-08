@@ -11,7 +11,7 @@
     justify-content: center;
     gap: 1.5rem;
     height: 100vh;
-    background: url('../../public/img/contact/bg.png');
+    background: url('../../public/img/desktopbg/6.webp');
     background-position: center;
     background-size: cover;
 }
@@ -30,6 +30,7 @@
     display: inline-flex;
     align-items: center;
     gap: 1rem;
+    text-align: center;
 }
 
 .cpwNew {
@@ -41,6 +42,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    text-align: center;
 }
 
 .cpwHeading {
@@ -153,6 +155,7 @@
 @media (max-width: 520px) {
     .contactPageWrap {
         padding: 1rem;
+        background-image: url('../../public/img/mobilebg/6.webp');
     }
 
     .cpwHeading {
