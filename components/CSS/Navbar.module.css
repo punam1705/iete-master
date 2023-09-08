@@ -144,32 +144,37 @@
     color: #eee;
 }
 
+.mobileNav{
+    display: none;
+}
+
 @media (max-width: 800px) {
     .navbar nav .navExtra .navIcon {
         display: initial;
         cursor: pointer;
     }
 
-    .navbar nav .navLinkWrap .navLink {
+    .navLink{
+        display: none;
+    }
+
+    .mobileNav {
+        display: initial;
         position: absolute;
-        top: 100%;
+        top: 4rem;
         height: calc(100vh - 4rem);
         left: 0;
         right: 0;
         background: #000;
     }
 
-    .navbar nav .navLinkWrap .navLink ul li {
+    .mobileNav ul li {
         width: 100%;
-        padding: .5rem 1rem;
+        padding: .8rem 2rem;
     }
 
-    .navbar nav .navLinkWrap .navLink ul li ul {
+    .mobileNav ul li ul {
         position: relative;
         width: 100%;
-    }
-
-    .navbar nav .navExtra .navIcon {
-        display: initial;
     }
 }
