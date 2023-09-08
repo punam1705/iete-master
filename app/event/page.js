@@ -22,6 +22,19 @@ const page = () => {
 
                         <div className={styles.eventCard}>
                             <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k23/e6.png" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">Kreatrix</h3>
+                                <p>
+                                Get ready to embark on a journey of boundless creativity with the upcoming Fun Event Kreatrix!
+                                Starting from the 19th of August, this event is designed to unleash your artistic prowess and captivate your imagination.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
                                 <img alt="image" src="/img/events/2k23/e5.jpeg" className={styles.eventCardImg} />
                             </div>
                             <div className={styles.ecText}>
@@ -67,19 +80,6 @@ const page = () => {
                                 <h3 className="h4">Webinar: Full Stack web Dev</h3>
                                 <p>
                                     We are extremely delighted to announce that 𝗠𝗿. Rahul Gupta, a Software developer at Freecharge Pyments , Intern at swiggy and rupify and an alumunus of BITS Pilani will be taking up the role to introduce you all to the detailed roadmap to become a Full Stack Web Developer.
-                                </p>
-                            </div>
-                        </div>
-
-                         <div className={styles.eventCard}>
-                            <div className={styles.ecImage}>
-                                <img alt="image" src="/img/events/2k23/e6.png" className={styles.eventCardImg} />
-                            </div>
-                            <div className={styles.ecText}>
-                                <h3 className="h4">Kreatrix</h3>
-                                <p>
-                                Get ready to embark on a journey of boundless creativity with the upcoming Fun Event Kreatrix!
-                                Starting from the 19th of August, this event is designed to unleash your artistic prowess and captivate your imagination.
                                 </p>
                             </div>
                         </div>
