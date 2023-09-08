@@ -255,11 +255,11 @@ export default function Home() {
             </Link>
 
             <Link href='https://www.youtube.com/live/Y5DQ3ZK6-rs?feature=share' className={styles.eventCard}>
-              <img src="/img/home/le5.jpg" alt="image" />
+              <img src="/img/home/le7.png" alt="image" />
 
               <div className={styles.eventCardInfo}>
-                <div className={styles.eciName}>Webinar: Wireless Tech.</div>
-                <div className={styles.eciDate}>Date: 13-12-2022</div>
+                <div className={styles.eciName}>Kreatrix</div>
+                <div className={styles.eciDate}>Date: 19-08-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
             </Link>

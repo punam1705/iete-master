@@ -71,7 +71,21 @@ const page = () => {
                             </div>
                         </div>
 
+                         <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k23/e6.png" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">Kreatrix</h3>
+                                <p>
+                                Get ready to embark on a journey of boundless creativity with the upcoming Fun Event Kreatrix!
+                                Starting from the 19th of August, this event is designed to unleash your artistic prowess and captivate your imagination.
+                                </p>
+                            </div>
+                        </div>
+
                         <a href='https://techudbhav.ietebits.com/' className={styles.eventCard}>
+
                             <div className={styles.ecImage}>
                                 <img alt="image" src="/img/events/2k23/e1.jpg" className={styles.eventCardImg} />
                             </div>
