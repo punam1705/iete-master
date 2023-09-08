@@ -393,7 +393,7 @@ const page = () => {
                   <p className={styles.name}>Subhabrata Roy</p>
                   <div className={styles.blur}>
                     <span>Subhabrata Roy</span>
-                    <img alt="" src="./img/L&T.png" className={styles.brand} />
+                    <img alt="" src="" className={styles.brand} />
                     <a
                       className={styles.link}
                       href="https://www.linkedin.com/in/subhabrata-roy-84038b180/"
@@ -983,7 +983,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src="./img/alumni/img25.jpg"
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -1049,7 +1049,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src="./img/alumni/img26.jpg"
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -1357,7 +1357,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Saket Kumar</p>
                   <div className={styles.blur}>
@@ -1380,7 +1380,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -1406,7 +1406,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -1438,7 +1438,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo} 
                 />
                 <div className={styles.text}>
@@ -1464,7 +1464,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -1490,7 +1490,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -1516,7 +1516,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -1542,7 +1542,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -1853,7 +1853,7 @@ const page = () => {
               </div>
 
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Puja Sharma</p>
                   <div className={styles.blur}>
@@ -1875,7 +1875,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Harsh Goyal</p>
                   <div className={styles.blur}>
@@ -1897,7 +1897,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Monika Kumari</p>
                   <div className={styles.blur}>
@@ -1992,7 +1992,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2018,7 +2018,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2044,7 +2044,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2070,7 +2070,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2096,7 +2096,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2122,7 +2122,7 @@ const page = () => {
               <div className={styles.people}>
                  <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 /> 
                 <div className={styles.text}>
@@ -2148,7 +2148,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2174,7 +2174,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2200,7 +2200,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2226,7 +2226,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2296,7 +2296,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2328,7 +2328,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2360,7 +2360,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2386,7 +2386,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2412,7 +2412,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2444,7 +2444,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2467,7 +2467,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2495,7 +2495,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2523,7 +2523,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2551,7 +2551,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2579,7 +2579,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2607,7 +2607,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2629,7 +2629,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src=""
+                  src="/img/alumni/avatar.jpg"
                   className={styles.photo}
                 />
                 <div className={styles.text}>
@@ -2666,7 +2666,7 @@ const page = () => {
             <div className={styles.heading}>IETE 2K11</div>
             <div className={styles.peoples}>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>sumit</p>
                   <div className={styles.blur}>
@@ -2688,7 +2688,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Abhishek Viplavi </p>
                   <div className={styles.blur}>
@@ -2706,7 +2706,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Saima</p>
                   <div className={styles.blur}>
@@ -2724,7 +2724,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Nitin</p>
                   <div className={styles.blur}>
@@ -2742,7 +2742,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Perwez</p>
                   <div className={styles.blur}>
@@ -2760,7 +2760,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Saurav</p>
                   <div className={styles.blur}>
@@ -2778,7 +2778,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Surbhi</p>
                   <div className={styles.blur}>
@@ -2796,7 +2796,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Manish kumar</p>
                   <div className={styles.blur}>
@@ -2814,7 +2814,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Sanket</p>
                   <div className={styles.blur}>
@@ -2832,7 +2832,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Suruchi</p>
                   <div className={styles.blur}>
@@ -2850,7 +2850,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Latika</p>
                   <div className={styles.blur}>
@@ -2868,7 +2868,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Neha</p>
                   <div className={styles.blur}>
@@ -2886,7 +2886,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Suraj</p>
                   <div className={styles.blur}>
@@ -2915,7 +2915,7 @@ const page = () => {
             <div className={styles.heading}>IETE 2K10</div>
             <div className={styles.peoples}>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Chandan Chirag </p>
                   <div className={styles.blur}>
@@ -2933,7 +2933,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Pankaj Narayan </p>
                   <div className={styles.blur}>
@@ -2951,7 +2951,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Anuja </p>
                   <div className={styles.blur}>
@@ -2969,7 +2969,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Niket </p>
                   <div className={styles.blur}>
@@ -2987,7 +2987,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}> Himanshu</p>
                   <div className={styles.blur}>
@@ -3005,7 +3005,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Smriti Rani </p>
                   <div className={styles.blur}>
@@ -3023,7 +3023,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Sumit Kumar </p>
                   <div className={styles.blur}>
@@ -3041,7 +3041,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Sunita </p>
                   <div className={styles.blur}>
@@ -3059,7 +3059,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Mayank Shekhar </p>
                   <div className={styles.blur}>
@@ -3077,7 +3077,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Amrita Singh </p>
                   <div className={styles.blur}>
@@ -3095,12 +3095,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Aarti Kumari </p>
                   <div className={styles.blur}>
                     <span>Aarti Kumari</span>
-                    <img alt="" src="g" className={styles.brand} />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -3113,7 +3113,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Puja </p>
                   <div className={styles.blur}>
@@ -3131,7 +3131,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Shubhashish </p>
                   <div className={styles.blur}>
@@ -3149,7 +3149,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Gaurav</p>
                   <div className={styles.blur}>
@@ -3167,7 +3167,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Ekta </p>
                   <div className={styles.blur}>
@@ -3185,7 +3185,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Gaurav Kumar </p>
                   <div className={styles.blur}>
@@ -3203,7 +3203,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="" className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Annu Preeti </p>
                   <div className={styles.blur}>
@@ -3221,7 +3221,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img alt="" src="." className={styles.photo} />
+                <img alt="" src="/img/alumni/avatar.jpg" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Abhishek </p>
                   <div className={styles.blur}>
