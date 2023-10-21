@@ -204,7 +204,18 @@ export default function Home() {
           <div className={styles.heading}>Latest Events</div>
 
           <div className={styles.eventsList}>
-            <Link href="https://youtu.be/E0FGIxbe4pc" className={styles.eventCard}>
+
+            <a href='https://www.youtube.com/live/Y5DQ3ZK6-rs?feature=share' target='_blank' className={styles.eventCard}>
+              <img src="/img/home/le7.png" alt="image" />
+
+              <div className={styles.eventCardInfo}>
+                <div className={styles.eciName}>Kreatrix</div>
+                <div className={styles.eciDate}>Date: 19-08-2023</div>
+                <div className={styles.eciLink}></div>
+              </div>
+            </a>
+
+            <a href="https://youtu.be/E0FGIxbe4pc" target='_blank' className={styles.eventCard}>
               <img src="/img/home/le0.jpeg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -212,9 +223,9 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 21-07-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </Link>
+            </a>
 
-            <Link href="http://nexus2.ietebits.com/" className={styles.eventCard}>
+            <a href="http://nexus2.ietebits.com/" target='_blank' className={styles.eventCard}>
               <img src="/img/home/le1.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -222,9 +233,9 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 28-06-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </Link>
+            </a>
 
-            <Link href="https://www.youtube.com/live/newY0JpJqqw?feature=share" className={styles.eventCard}>
+            <a href="https://www.youtube.com/live/newY0JpJqqw?feature=share" target='_blank' className={styles.eventCard}>
               <img src="/img/home/le2.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -232,9 +243,9 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 07-07-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </Link>
+            </a>
 
-            <Link href="https://www.youtube.com/live/XpAnexnjr94?feature=share" className={styles.eventCard}>
+            <a href="https://www.youtube.com/live/XpAnexnjr94?feature=share" target='_blank' className={styles.eventCard}>
               <img src="/img/home/le3.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -242,9 +253,9 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 26-06-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </Link>
+            </a>
 
-            <Link href="https://youtu.be/dferuBDSwiw" className={styles.eventCard}>
+            <a href="https://youtu.be/dferuBDSwiw" target='_blank' className={styles.eventCard}>
               <img src="/img/home/le4.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -252,17 +263,7 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 12-02-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </Link>
-
-            <Link href='https://www.youtube.com/live/Y5DQ3ZK6-rs?feature=share' className={styles.eventCard}>
-              <img src="/img/home/le5.jpg" alt="image" />
-
-              <div className={styles.eventCardInfo}>
-                <div className={styles.eciName}>Webinar: Wireless Tech.</div>
-                <div className={styles.eciDate}>Date: 13-12-2022</div>
-                <div className={styles.eciLink}></div>
-              </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
