@@ -1,10 +1,13 @@
-import React from "react";
-import { BiLogoLinkedinSquare } from "react-icons/bi";
-import { BsStars } from "react-icons/bs";
-import styles from "./page.module.css";
-import { PiStudentDuotone } from "react-icons/pi";
+'use client';
+import React from 'react';
+import { BiLogoLinkedinSquare } from 'react-icons/bi';
+import { BsStars } from 'react-icons/bs';
+import styles from './page.module.css';
+import { PiStudentDuotone } from 'react-icons/pi';
+import { Alumnis } from '@/constant';
 
 const page = () => {
+  console.log(Alumnis);
   return (
     <div className={styles.alumniPage}>
       <div className={styles.alumniPageWrap}>
@@ -1378,20 +1381,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Jyoti Singh</p>
                   <div className={styles.blur}>
                     <span>Jyoti Singh</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link}>
                       <BiLogoLinkedinSquare />
                     </a>
@@ -1404,20 +1399,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Anupriya Sheetu</p>
                   <div className={styles.blur}>
                     <span>Anupriya Sheetu</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a
                       className={styles.link}
                       href="https://www.linkedin.com/in/anupriya-sheetu-11668015a/"
@@ -1436,20 +1423,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo} 
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Kaushik Nilay</p>
                   <div className={styles.blur}>
                     <span>Kaushik Nilay</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link}>
                       <BiLogoLinkedinSquare />
                     </a>
@@ -1462,20 +1441,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Sushmit Anshu</p>
                   <div className={styles.blur}>
                     <span>Sushmit Anshu</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link}>
                       <BiLogoLinkedinSquare />
                     </a>
@@ -1488,20 +1459,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Badal Sahu</p>
                   <div className={styles.blur}>
                     <span>Badal Sahu</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link}>
                       <BiLogoLinkedinSquare />
                     </a>
@@ -1514,20 +1477,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Vivek Sahu</p>
                   <div className={styles.blur}>
                     <span>Vivek Sahu</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link}>
                       <BiLogoLinkedinSquare />
                     </a>
@@ -1540,20 +1495,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Kumar Vishist</p>
                   <div className={styles.blur}>
                     <span>Kumar Vishist</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a
                       className={styles.link}
                       herf="https://www.linkedin.com/in/kumar-vishist-2005bb124/"
@@ -1990,20 +1937,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Akshay Aanand</p>
                   <div className={styles.blur}>
                     <span>Akshay Aanand</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2016,20 +1955,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Manisha Kumari</p>
                   <div className={styles.blur}>
                     <span>Manisha Kumari</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2042,20 +1973,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Avinash Kumar Singh</p>
                   <div className={styles.blur}>
                     <span>Avinash Kumar Singh</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2068,20 +1991,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Kumar Preetam</p>
                   <div className={styles.blur}>
-                      <span>Kumar Preetam</span>
-                     <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    /> 
+                    <span>Kumar Preetam</span>
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2094,20 +2009,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Priya Kumari</p>
                   <div className={styles.blur}>
                     <span>Priya Kumari</span>
-                     <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    /> 
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2120,20 +2027,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                 <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                /> 
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Soni Kumari</p>
                   <div className={styles.blur}>
                     <span>Soni Kumari</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2146,20 +2045,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Saif Ansari</p>
                   <div className={styles.blur}>
                     <span>Saif Ansari</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2172,20 +2063,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Saket Bharti</p>
                   <div className={styles.blur}>
                     <span>Saket Bharti</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2198,20 +2081,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Puja Burnwal</p>
                   <div className={styles.blur}>
                     <span>Puja Burnwal</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2224,20 +2099,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Sandeep Sinku</p>
                   <div className={styles.blur}>
                     <span>Sandeep Sinku</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2294,20 +2161,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Priyanka Barik</p>
                   <div className={styles.blur}>
                     <span>Priyanka Barik</span>
-                    <img
-                      alt=""
-                      src="./"
-                      className={styles.brand}
-                    />
+                    <img alt="" src="./" className={styles.brand} />
                     <a
                       className={styles.link}
                       href="https://www.linkedin.com/in/priyanka-barik-260809a5"
@@ -2326,20 +2185,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Rishikant Yadav</p>
                   <div className={styles.blur}>
                     <span>Rishikant Yadav</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a
                       className={styles.link}
                       href="https://www.linkedin.com/in/rishikant-yadav-115b99101"
@@ -2358,20 +2209,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Sumit kumar</p>
                   <div className={styles.blur}>
                     <span>Sumit kumar</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2384,20 +2227,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Sonali Bhagat</p>
                   <div className={styles.blur}>
                     <span>Sonali Bhagat</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a className={styles.link} href="">
                       <BiLogoLinkedinSquare />
                     </a>
@@ -2410,20 +2245,12 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Roushan Sharma</p>
                   <div className={styles.blur}>
                     <span>Roushan Sharma</span>
-                    <img
-                      alt=""
-                      src=""
-                      className={styles.brand}
-                    />
+                    <img alt="" src="" className={styles.brand} />
                     <a
                       className={styles.link}
                       href="https://www.linkedin.com/in/roushan-sharma-62aa97120"
@@ -2442,11 +2269,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Jagit Singh Dhadial</p>
                   <div className={styles.blur}>
@@ -2465,11 +2288,7 @@ const page = () => {
               </div>
 
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Monika Raj</p>
                   <div className={styles.blur}>
@@ -2493,11 +2312,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Dharmendar Kumar</p>
                   <div className={styles.blur}>
@@ -2521,11 +2336,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Sudarshan Arya</p>
                   <div className={styles.blur}>
@@ -2549,11 +2360,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Sumit Kumar</p>
                   <div className={styles.blur}>
@@ -2577,11 +2384,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Ruhi Pandey</p>
                   <div className={styles.blur}>
@@ -2605,11 +2408,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Rakesh Kumar</p>
                   <div className={styles.blur}>
@@ -2627,11 +2426,7 @@ const page = () => {
                 </div>
               </div>
               <div className={styles.people}>
-                <img
-                  alt=""
-                  src=""
-                  className={styles.photo}
-                />
+                <img alt="" src="" className={styles.photo} />
                 <div className={styles.text}>
                   <p className={styles.name}>Uttam Kushwaha</p>
                   <div className={styles.blur}>
