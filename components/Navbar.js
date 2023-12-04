@@ -57,7 +57,7 @@ const Navbar = () => {
     },
     {
       id: 7,
-      route: '/https://blog.ietebits.com/',
+      route: 'https://blog.ietebits.com/',
       name: 'Blog',
       icon: <LiaBlogSolid />,
     },

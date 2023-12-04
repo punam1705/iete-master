@@ -74,6 +74,40 @@
     padding: 2rem 40px;
 }
 
+.heading {
+    font-size: 2.4rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+    text-transform: uppercase;
+    text-align: center;
+    margin: .5rem 0;
+}
+.memories2k18{
+    padding-top: 3rem;
+}
+.m18Row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cardG{
+    border: 5px solid white;
+    box-shadow: inet 20px 20px 60px #434343, -20px -20px 60px #5b5b5b;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.cardG img:hover{
+    scale: 1.03;
+}
+
 
 @media (max-width: 520px) {
     .galleryPageWrap {
@@ -93,5 +127,9 @@
 
     .tuGlimpse{
         padding: 0 1rem;
+    }
+    .cardG{
+        height: 250px;
+        width: 300px;
     }
 }
