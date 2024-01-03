@@ -266,7 +266,11 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Saron.jpg" alt="image" />
+                <img
+                  src="/img/members/2k21/Saron.jpg"
+                  alt="image"
+                  style={{ objectFit: 'cover' }}
+                />
                 <div className={styles.memberText}>
                   <h2>Saron Mukti Ekta</h2>
                   <p>vice chairperson</p>
@@ -314,7 +318,11 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Rahul_Kr_IETE.jpg" alt="image" />
+                <img
+                  src="/img/members/2k21/Rahul_Kr_IETE.jpg"
+                  alt="image"
+                  style={{ objectFit: 'contain' }}
+                />
                 <div className={styles.memberText}>
                   <h2>Rahul Kumar</h2>
                   <p>Technical head</p>
@@ -330,7 +338,11 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Deepak.jpg" alt="image" />
+                <img
+                  src="/img/members/2k21/Deepak.jpg"
+                  alt="image"
+                  style={{ objectFit: 'contain' }}
+                />
                 <div className={styles.memberText}>
                   <h2>Deepak Kumar</h2>
                   <p>Technical secretary</p>
@@ -378,7 +390,11 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Rahul_j.jpg" alt="image" />
+                <img
+                  src="/img/members/2k21/rahul_jha.jpg"
+                  alt="image"
+                  style={{ objectFit: 'contain' }}
+                />
                 <div className={styles.memberText}>
                   <h2>Rahul Jha</h2>
                   <p>Treasurer and sponsorship head</p>
@@ -410,7 +426,11 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Mehar.jpg" alt="image" />
+                <img
+                  src="/img/members/2k21/Mehar.jpg"
+                  alt="image"
+                  style={{ objectFit: 'contain' }}
+                />
                 <div className={styles.memberText}>
                   <h2>Mehar Talat</h2>
                   <p>Head of Alumni Affairs</p>
@@ -426,7 +446,11 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Ayushi.jpeg" alt="image" />
+                <img
+                  src="/img/members/2k21/Ayushi.jpg"
+                  alt="image"
+                  style={{ objectFit: 'contain' }}
+                />
                 <div className={styles.memberText}>
                   <h2>Ayushi Tewary</h2>
                   <p>Media and Marketing Head</p>
