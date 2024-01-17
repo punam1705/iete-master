@@ -22,6 +22,462 @@ const page = () => {
 
       <div className={styles.batchesWrap}>
         <div className={styles.batches}>
+          <div className={styles.batch} id="b_2k19">
+            <div className={styles.subHeadingWrap}>
+              <div className={styles.subHeading}>
+                <PiStudentDuotone />
+                Alumni 2K19
+              </div>
+            </div>
+            <div className={styles.heading}>IETE 2K19</div>
+            <div className={styles.peoples}>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Harsha.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Harsha Sinha</p>
+                  <div className={styles.blur}>
+                    <span>Harsha Sinha</span>
+                    <img
+                      alt=""
+                      src="./img/alumni/AMNS.jpeg"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/harsha-sinha-9a51601a1/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>AMNS</p>
+                  <a
+                    href="https://www.linkedin.com/in/harsha-sinha-9a51601a1/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Himanshu.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Himanshu Jaiswal</p>
+                  <div className={styles.blur}>
+                    <span>Himanshu Jaiswal</span>
+                    <img
+                      alt=""
+                      src="./img/alumni/global.png"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/himanshu-jaiswal-889771197/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>Global Logic</p>
+                  <a
+                    href="https://www.linkedin.com/in/himanshu-jaiswal-889771197/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Shubhangi.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Shubhangi Aanand</p>
+                  <div className={styles.blur}>
+                    <span>Shubhangi Aanand</span>
+                    <img
+                      alt=""
+                      src="./img/alumni/jsw.png"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/shubhangi-anand/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>JSW</p>
+                  <a
+                    href="https://www.linkedin.com/in/shubhangi-anand/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Dhiraj.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Dhiraj Pandey</p>
+                  <div className={styles.blur}>
+                    <span>Dhiraj Pandey </span>
+                    <img
+                      alt=""
+                      src="./img/alumni/L&T.png"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/dhiraj-pandey-007bitsindri/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>L&T</p>
+                  <a
+                    href="https://www.linkedin.com/in/dhiraj-pandey-007bitsindri/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Laxmi.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Lakshmi Sharma</p>
+                  <div className={styles.blur}>
+                    <span>Lakshmi Sharma</span>
+                    <img
+                      alt=""
+                      src="./img/alumni/Vedanta.png"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/laxmi-sharma-84806a1b3/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>Vedanta</p>
+                  <a
+                    href="https://www.linkedin.com/in/laxmi-sharma-84806a1b3/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Abhishek.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Abhishek Ranjan</p>
+                  <div className={styles.blur}>
+                    <span>Abhishek Ranjan</span>
+                    <img
+                      alt=""
+                      src="./img/alumni/IIT madras.png"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/abhishek-ranjan-690a63195/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>IIT Madras</p>
+                  <a
+                    href="https://www.linkedin.com/in/abhishek-ranjan-690a63195/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/AnjaliP.jpg"
+                  className={styles.photo}
+                  style={{ objectFit: 'cover' }}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Anjali Kumari</p>
+                  <div className={styles.blur}>
+                    <span>Anjali Kumari</span>
+                    <img
+                      alt=""
+                      src="./img/alumni/exavalu.jpeg"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/anjali-kumari-6677421a7/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>EXAVALU</p>
+                  <a
+                    href="https://www.linkedin.com/in/anjali-kumari-6677421a7/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Harshit.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Harshit Pallove</p>
+                  <div className={styles.blur}>
+                    <span>Harshit Pallove</span>
+                    <img
+                      alt=""
+                      src="./img/alumni/Capgemini.png"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/harshit-pallove-a39505193/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>Capgemini</p>
+                  <a
+                    href="https://www.linkedin.com/in/harshit-pallove-a39505193/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Simran.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Simran</p>
+                  <div className={styles.blur}>
+                    <span>Simarn</span>
+                    <img
+                      alt=""
+                      src="./img/alumni/AMNS.jpeg"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/simran-125152197/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>AMNS</p>
+                  <a
+                    href="https://www.linkedin.com/in/simran-125152197/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Ayush.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Ayush Vijayant</p>
+                  <div className={styles.blur}>
+                    <span>Ayush Vijayant</span>
+                    <img
+                      alt=""
+                      src="./img/alumni/tcs.png"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/ayush-vijayant-606566198/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>TCS Digital</p>
+                  <a
+                    href="https://www.linkedin.com/in/ayush-vijayant-606566198/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Taniya.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Taniya Kumari</p>
+                  <div className={styles.blur}>
+                    <span>Taniya kumari</span>
+                    <img
+                      alt=""
+                      src="/img/alumni/jsw.png"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/taniya-kumari-a997441a7/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>JSW</p>
+                  <a
+                    href="https://www.linkedin.com/in/taniya-kumari-a997441a7/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/ravi.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Ravi Kumar</p>
+                  <div className={styles.blur}>
+                    <span>Ravi Kumar</span>
+                    <img
+                      alt=""
+                      src="/img/alumni/tcs.png"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/ravi-kumar-62bb6b158/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>TCS Ninja</p>
+                  <a
+                    href="https://www.linkedin.com/in/ravi-kumar-62bb6b158/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/Juhi.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Juhi Sinha</p>
+                  <div className={styles.blur}>
+                    <span>Juhi Sinha</span>
+                    <img alt="" src="" className={styles.brand} />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/juhi-sinha-8959981b3/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>S. K. Samanta & Co. (P) Ltd.</p>
+                  <a
+                    href="https://www.linkedin.com/in/juhi-sinha-8959981b3/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.people}>
+                <img
+                  alt=""
+                  src="/img/members/2k19/AnjaliP.jpg"
+                  className={styles.photo}
+                />
+                <div className={styles.text}>
+                  <p className={styles.name}>Anjali Priya</p>
+                  <div className={styles.blur}>
+                    <span>Anjali Priya</span>
+                    <img
+                      alt=""
+                      src="/img/alumni/TEN.jpeg"
+                      className={styles.brand}
+                    />
+                    <a
+                      className={styles.link}
+                      href="https://www.linkedin.com/in/anjali-priya-4235571a7/"
+                    >
+                      <BiLogoLinkedinSquare />
+                    </a>
+                  </div>
+                  <p></p>
+                  <p>Technip Enegies</p>
+                  <a
+                    href="https://www.linkedin.com/in/anjali-priya-4235571a7/"
+                    className={styles.link}
+                  >
+                    <BiLogoLinkedinSquare />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className={styles.batch} id="b_2018">
             <div className={styles.subHeadingWrap}>
               <div className={styles.subHeading}>
