@@ -33,7 +33,7 @@ const page = () => {
             <div className={styles.peoples}>
               <div className={styles.people}>
                 <img
-                  alt=""
+                  alt="harsha"
                   src="/img/members/2k19/Harsha.jpg"
                   className={styles.photo}
                 />
