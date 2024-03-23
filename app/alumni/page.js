@@ -226,7 +226,7 @@ const page = () => {
               <div className={styles.people}>
                 <img
                   alt=""
-                  src="/img/members/2k19/AnjaliP.jpg"
+                  src="/img/members/2k19/AnjaliK.jpg"
                   className={styles.photo}
                   style={{ objectFit: 'cover' }}
                 />
