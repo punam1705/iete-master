@@ -1,0 +1,60 @@
+@font-face {
+  font-family: mr;
+  src: url('../public/font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: mm;
+  src: url('../public/font/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: msb;
+  src: url('../public/font/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: mb;
+  src: url('../public/font/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: meb;
+  src: url('../public/font/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: ar;
+  src: url('../public/font/Anton-Regular.ttf');
+}
+
+@font-face {
+  font-family: afr;
+  src: url('../public/font/AquireBold-8Ma60.otf');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: mr;
+  color: #fff;
+}
+
+html,body{
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.heading {
+  font-size: 2.6rem;
+  background: linear-gradient(#fff, #ffe29d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: mb;
+  text-transform: uppercase;
+}

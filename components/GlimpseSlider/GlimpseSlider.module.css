@@ -1,0 +1,95 @@
+.productSlider {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.productSliderCard {
+    width: 280px;
+    padding: 8px;
+    border: 1px solid #808080;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.pscImg {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background: #808080;
+}
+
+.pscImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pscText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.psctName {
+    color: #fff;
+    text-align: center;
+    font-family: mm;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.198px;
+}
+
+.sliderExtras {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderNavButton {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sliderNavButton button {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    font-size: 18px;
+    z-index: 4;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (max-width: 540px) {
+    .productSlider{
+        padding: 2rem 0 4rem;
+    }
+
+    .productSliderCard {
+        padding: .4rem;
+        width: 240px;
+    }
+
+    .productBag{
+        top: 20px;
+        right: 20px;
+    }
+}

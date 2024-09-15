@@ -1,0 +1,160 @@
+.memberPage {
+    background: #000;
+}
+
+.memberPageWrap {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 100vh;
+    background: url('../../public/img/desktopbg/5.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.mpwNew {
+    background: linear-gradient(transparent, #eeeeee32);
+    border: 1px solid #eeeeee62;
+    border-radius: 100px;
+    padding: .54em 1rem;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.mpwHeading {
+    font-size: 3.4rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+}
+
+.mpwPara {
+    color: #ddd;
+    width: 50%;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.heading {
+    font-size: 2.4rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+    text-transform: uppercase;
+    text-align: center;
+    margin: .5rem 0;
+}
+
+.subHeadingWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.subHeading {
+    background: linear-gradient(transparent, #eeeeee32);
+    border: 1px solid #eeeeee62;
+    border-radius: 100px;
+    padding: .54em 1rem;
+    font-size: .8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.memberListWrap {
+    /* height: 200vh; */
+    background: url('../../public/img/members/hexagon.jpg');
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.memberBox {
+    width: 90%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.memberWrapper {
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.memberCard {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 320px;
+    gap: 1rem;
+    background: rgba(114, 114, 114, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.memberText {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.memberText {
+    text-transform: capitalize;
+}
+
+.memberSubText {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.memberCard img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #eee;
+}
+
+@media (max-width: 520px) {
+    .memberPageWrap {
+        padding: 1rem;
+        background-image: url('../../public/img/mobilebg/5.webp');
+    }
+
+    .mpwHeading {
+        font-size: 2.6rem;
+        text-align: center;
+    }
+
+    .mpwPara {
+        width: 100%;
+        font-size: .8rem;
+    }
+
+    .memberBox {
+        width: 100%;
+        padding: 4rem 1rem;
+    }
+
+    .memberWrapper {
+        justify-content: center;
+    }
+
+    .memberCard {
+        width: 320px;
+    }
+}

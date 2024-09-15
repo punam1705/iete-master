@@ -1,0 +1,135 @@
+.galleryPage {
+    background: #000;
+}
+
+.galleryPageWrap {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 100vh;
+    background: url('../../public/img/desktopbg/7.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.gpwNew {
+    background: linear-gradient(transparent, #eeeeee32);
+    border: 1px solid #eeeeee62;
+    border-radius: 100px;
+    padding: .54em 1rem;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.gpwHeading {
+    font-size: 3.4rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+}
+
+.gpwPara {
+    color: #ddd;
+    width: 50%;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.heading {
+    font-size: 2.4rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+    text-transform: uppercase;
+    text-align: center;
+    margin: .5rem 0;
+}
+
+.subHeadingWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.subHeading {
+    background: linear-gradient(transparent, #eeeeee32);
+    border: 1px solid #eeeeee62;
+    border-radius: 100px;
+    padding: .54em 1rem;
+    font-size: .8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tuGlimpse{
+    padding: 2rem 40px;
+}
+
+.heading {
+    font-size: 2.4rem;
+    background: linear-gradient(#fff, #ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: afr;
+    text-transform: uppercase;
+    text-align: center;
+    margin: .5rem 0;
+}
+.memories2k18{
+    padding-top: 3rem;
+}
+.m18Row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cardG{
+    border: 5px solid white;
+    box-shadow: inet 20px 20px 60px #434343, -20px -20px 60px #5b5b5b;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.cardG img:hover{
+    scale: 1.03;
+}
+
+
+@media (max-width: 520px) {
+    .galleryPageWrap {
+        padding: 1rem;
+        background-image: url('../../public/img/mobilebg/7.webp');
+    }
+
+    .gpwHeading {
+        font-size: 2.6rem;
+        text-align: center;
+    }
+
+    .gpwPara {
+        width: 100%;
+        font-size: .8rem;
+    }
+
+    .tuGlimpse{
+        padding: 0 1rem;
+    }
+    .cardG{
+        height: 250px;
+        width: 300px;
+    }
+}
