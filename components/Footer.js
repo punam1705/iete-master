@@ -26,7 +26,7 @@ const Footer = () => {
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/contact">Contact us</Link></li>
                         <li><Link href="/about">About us</Link></li>
-                        <li><Link href="/event">Events</Link></li>
+                        <li><Link href="/event">Event</Link></li>
                     </ul>
                     <ul className={styles.box}>
                         <li className={styles.link_name}>Find Us</li>
