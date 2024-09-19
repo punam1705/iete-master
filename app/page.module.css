@@ -496,16 +496,19 @@ img.hdbImg {
     }
 
     .eventCard {
-        width: 320px;
-        height: 320px;
+        max-width: 320px;
+        max-height: 320px;
         position: relative;
         border-radius: 10px;
         overflow: hidden;
     }
 
     .eventCard img {
-        width: 100%;
+        width: auto;
         height: 100%;
+        position: relative;
+        /* max-width: 320px;
+        max-height: 320px; */
         object-fit: cover;
         transition: .4s;
     }

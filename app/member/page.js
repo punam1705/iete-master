@@ -25,7 +25,7 @@ const Page = () => {
       </div>
 
       <div className={styles.memberListWrap}>
-        <div className={styles.memberBox}>
+        {/* <div className={styles.memberBox}>
           <div className={styles.heading}>Board Of Directors</div>
 
           <div className={styles.memberWrapper}>
@@ -226,7 +226,7 @@ const Page = () => {
               </div>
             </Tilt>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.memberBox}>
           <div className={styles.heading}>Office Bearers</div>
@@ -391,7 +391,7 @@ const Page = () => {
             <Tilt>
               <div className={styles.memberCard}>
                 <img
-                  src="/img/members/2k21/rahul_jha.jpg"
+                  src="/img/members/2k21/Rahul_J.jpg"
                   alt="image"
                   style={{ objectFit: 'contain' }}
                 />
@@ -447,7 +447,7 @@ const Page = () => {
             <Tilt>
               <div className={styles.memberCard}>
                 <img
-                  src="/img/members/2k21/Ayushi.jpg"
+                  src="/img/members/2k21/Ayushi.jpeg"
                   alt="image"
                   style={{ objectFit: 'contain' }}
                 />
@@ -468,7 +468,7 @@ const Page = () => {
               <div className={styles.memberCard}>
                 <img src="/img/members/2k21/Ashish.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Ashish Sinhal</h2>
+                  <h2>Ashish Sinha</h2>
                   <p>Public Realtion Officer</p>
 
                   <div className={styles.memberSubText}>
@@ -526,7 +526,7 @@ const Page = () => {
               <div className={styles.memberCard}>
                 <img src="/img/members/2k22/Shaswat.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Shaswat </h2>
+                  <h2>Kumar Shaswat </h2>
 
                   <div className={styles.memberSubText}>
                     <h4>Elec. & Com. Engineering</h4>
@@ -706,7 +706,7 @@ const Page = () => {
               <div className={styles.memberCard}>
                 <img src="/img/members/2k22/Shivam.jpeg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Shvivam Singh</h2>
+                  <h2>Shivam Singh</h2>
 
                   <div className={styles.memberSubText}>
                     <h4>Mechanical Engineering</h4>

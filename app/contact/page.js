@@ -45,8 +45,9 @@ const Page = () => {
 
                     <ul>
                         <li>Inductions</li>
-                        <div>Rajat Choudhary: +91-6205322261</div>
-                        <div>Rana Randeep: +91-7003290637</div>
+                        <div>PRIYANSHU MUKHERJEE: +91-9142040066</div>
+                        <div>ROHIT KUMAR GRIHI: +91-6200983787</div>
+                       
                     </ul>
                 </div>
             </div>

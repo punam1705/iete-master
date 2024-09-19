@@ -37,8 +37,9 @@ const Footer = () => {
                     <ul className={styles.box}>
                         <li className={styles.link_name}>Contact Us</li>
                         <li>contact@ietebits.com</li>
-                        <li>+91-6205322261 </li>
-                        <li>+91-7003290637 </li>
+                       
+                        <li>+91-9142040066 </li>
+                        <li>+91-6200983787 </li>
                     </ul>
                     <ul className={`${styles.box} ${styles.inputBox}`}>
                         <li className={styles.link_name}>Get in touch</li>

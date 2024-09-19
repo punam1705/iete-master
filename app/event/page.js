@@ -15,6 +15,91 @@ const page = () => {
             </div>
 
             <div className={styles.eventListWrap}>
+            <section className={styles.section}>
+                    <div className={styles.heading}>Events 2k24</div>
+
+                    <div className={styles.eventBox}>
+
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k24/criminal.jpg" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">Webinar: New Criminal Laws</h3>
+                                <p>
+                                We recently hosted an enlightening webinar on the New Criminal Laws, featuring esteemed legal expert Mr. Sumanto Mandal from BIT Sindri. The session provided a comprehensive overview of the latest reforms in criminal law, including procedural changes and their broader implications on the justice system.
+
+Mr. Mandal’s expertise in criminal justice, legal analysis, and judicial processes offered participants a clear understanding of how these reforms impact various stakeholders. 
+                                </p>
+                            </div>
+                        </div>
+                        <a href='https://techudbhav.ietebits.com/' className={styles.eventCard}>
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k24/techfest.jpg" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">TechUdbhav: Annual Techfest</h3>
+                                <p>
+                                Tech Udbhav 2024, the signature technical fest by the IETE Students' Forum, was a dynamic celebration of innovation, creativity, and technological advancements. Bringing together tech enthusiasts, innovators, and problem solvers, the fest featured a thrilling lineup of events, competitions, and workshops aimed at pushing the boundaries of technology. Whether you were passionate about coding, robotics, AI, or hardware, Tech Udbhav provided a platform to showcase your skills.
+                                </p>
+                            </div>
+                        </div>
+                       </a>
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k24/bgmi.jpg" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">BGMI Campus Combat</h3>
+                                <p>
+                                The BGMI Campus Combat, organized by the IETE Students' Forum of BIT Sindri, showcased top-tier gaming talent and competitive spirit. With the motto "Victory belongs to the most persevering," the event saw intense matches where players demonstrated their strategic and gaming skills. It was a thrilling display of gameplay and fierce competition. Beyond the wins and losses, the event celebrated the essence of gaming.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k24/30days.webp" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">30-Days Challenge</h3>
+                                <p>
+                                The IETE Students' Forum arranged a dynamic collaboration with YouTuber Arsh Goyal for the "6 Companies 30 Days Challenge!" This challenge was designed to aid college students in building consistency and addressing crucial questions posed by top tech companies that typically hired OFF CAMPUS for Software Roles - Internships and Full-Time positions. Incorporating DSA into practice provided students with critical skills that enhanced their academic performance .
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k24/clue.jpg" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">CLU-E-MINATI 2.0</h3>
+                                <p>
+                                Clu-e-minati was an engaging event organized by the IETE Students' Forum, where participants were presented with movie scenes in the form of riddles. The challenge was to guess correct movie based on clues provided. Participants competed enthusiastically, and winners were awarded based on the highest number of correct answers and the fastest response time. The event tested both knowledge of films and quick thinking, making it a fun and thrilling experience for everyone.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className={styles.eventCard}>
+                            <div className={styles.ecImage}>
+                                <img alt="image" src="/img/events/2k24/1e7.webp" className={styles.eventCardImg} />
+                            </div>
+                            <div className={styles.ecText}>
+                                <h3 className="h4">Kreatrix</h3>
+                                <p>
+                                Kreatrix was an enticing and pioneering event challenging competitors to show off their ingenuity by morphing an image formed from several pictures uploaded on Instagram. Initiated on 17th August 2023, it paved way for students to merge their artistic capabilities with technology. This involved the participants using images provided to them to create everything new and original; thus, any mannerisms could be applied depending on the artist. 
+                                </p>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+
+                </section>
+
                 <section className={styles.section}>
                     <div className={styles.heading}>Events 2k23</div>
 

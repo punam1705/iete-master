@@ -38,12 +38,12 @@ export default function Home() {
             Welcomes Batch 2K23
           </div> */}
         </div>
-        {/* <a
-          href="https://forms.gle/jbUJiEMFqC54mny47"
+        <a
+          href="https://forms.gle/z9KH5hbKXnmQayXv9"
           className={styles.homeWelcomeBtn}
         >
           JOIN US
-        </a> */}
+        </a>
         <div className={styles.hpwPara}>
           IETE Students' Forum, BIT Sindri is a sub branch of IETE National body
           operating through various centers, spread all over India and abroad.
@@ -364,87 +364,87 @@ export default function Home() {
 
           <div className={styles.eventsList}>
             <a
-              href="https://www.youtube.com/live/Y5DQ3ZK6-rs?feature=share"
-              target="_blank"
+              // href="https://www.youtube.com/live/Y5DQ3ZK6-rs?feature=share"
+              // target="_blank"
               className={styles.eventCard}
             >
-              <img src="/img/home/le7.png" alt="image" />
+              <img src="/img/home/crimial.webp" alt="image" />
 
               <div className={styles.eventCardInfo}>
-                <div className={styles.eciName}>Kreatrix</div>
-                <div className={styles.eciDate}>Date: 19-08-2023</div>
+                <div className={styles.eciName}>Webinar: New Criminal Laws</div>
+                <div className={styles.eciDate}>Date: 28-06-2024</div>
                 <div className={styles.eciLink}></div>
               </div>
-            </a>
+              </a>
 
             <a
-              href="https://youtu.be/E0FGIxbe4pc"
-              target="_blank"
+              // href="https://youtu.be/E0FGIxbe4pc"
+              // target="_blank"
               className={styles.eventCard}
             >
-              <img src="/img/home/le0.jpeg" alt="image" />
-
-              <div className={styles.eventCardInfo}>
-                <div className={styles.eciName}>Workshop: Carmel Giridih</div>
-                <div className={styles.eciDate}>Date: 21-07-2023</div>
-                <div className={styles.eciLink}></div>
-              </div>
-            </a>
-
-            <a
-              href="http://nexus2.ietebits.com/"
-              target="_blank"
-              className={styles.eventCard}
-            >
-              <img src="/img/home/le1.jpg" alt="image" />
-
-              <div className={styles.eventCardInfo}>
-                <div className={styles.eciName}>Nexus 2.0</div>
-                <div className={styles.eciDate}>Date: 28-06-2023</div>
-                <div className={styles.eciLink}></div>
-              </div>
-            </a>
-
-            <a
-              href="https://www.youtube.com/live/newY0JpJqqw?feature=share"
-              target="_blank"
-              className={styles.eventCard}
-            >
-              <img src="/img/home/le2.jpg" alt="image" />
-
-              <div className={styles.eventCardInfo}>
-                <div className={styles.eciName}>Webinar: Git-Github</div>
-                <div className={styles.eciDate}>Date: 07-07-2023</div>
-                <div className={styles.eciLink}></div>
-              </div>
-            </a>
-
-            <a
-              href="https://www.youtube.com/live/XpAnexnjr94?feature=share"
-              target="_blank"
-              className={styles.eventCard}
-            >
-              <img src="/img/home/le3.jpg" alt="image" />
-
-              <div className={styles.eventCardInfo}>
-                <div className={styles.eciName}>
-                  Webinar: Full Stack web dev
-                </div>
-                <div className={styles.eciDate}>Date: 26-06-2023</div>
-                <div className={styles.eciLink}></div>
-              </div>
-            </a>
-
-            <a
-              href="https://youtu.be/dferuBDSwiw"
-              target="_blank"
-              className={styles.eventCard}
-            >
-              <img src="/img/home/le4.jpg" alt="image" />
+              <img src="/img/home/techfest1.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
                 <div className={styles.eciName}>Tech Udbhav</div>
-                <div className={styles.eciDate}>Date: 12-02-2023</div>
+                <div className={styles.eciDate}>Date: 03-05-2024</div>
+                <div className={styles.eciLink}></div>
+              </div>
+              </a>
+
+             <a
+              // href="http://www.ietebits.com/"
+              // target="_blank"
+              className={styles.eventCard}
+            > 
+              <img src="/img/home/bgmi1.jpg" alt="image" />
+
+              <div className={styles.eventCardInfo}>
+                <div className={styles.eciName}>BGMI Campus Combat</div>
+                <div className={styles.eciDate}>Date: 10-03-2024</div>
+                <div className={styles.eciLink}></div>
+              </div>
+              </a>
+
+            <a
+              // href="https://www.youtube.com/live/newY0JpJqqw?feature=share"
+              // target="_blank"
+              className={styles.eventCard}
+            >
+              <img src="/img/home/30days.webp" alt="image" />
+
+              <div className={styles.eventCardInfo}>
+                <div className={styles.eciName}>30-Days Challenge</div>
+                <div className={styles.eciDate}>Date: 07-07-2023</div>
+                <div className={styles.eciLink}></div>
+              </div>
+              </a>
+
+            <a
+              // href="https://www.youtube.com/live/XpAnexnjr94?feature=share"
+              // target="_blank"
+              className={styles.eventCard}
+            >
+              <img src="/img/home/clue.jpg" alt="image" />
+
+              <div className={styles.eventCardInfo}>
+                <div className={styles.eciName}>
+                  CLU-E-MINATI 2.0
+                </div>
+                <div className={styles.eciDate}>Date: 18-09-2023</div>
+                <div className={styles.eciLink}></div>
+              </div>
+            </a>
+
+            <a
+              // href="https://youtu.be/dferuBDSwiw"
+              // target="_blank"
+              className={styles.eventCard}
+            >
+              <img src="/img/home/1e7.webp" alt="image" />
+
+              <div className={styles.eventCardInfo}>
+                <div className={styles.eciName}> Kreatrix</div>
+                <div className={styles.eciDate}>Date: 19-08-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
             </a>
