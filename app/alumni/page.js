@@ -70,9 +70,9 @@ const page = () => {
                   className={styles.photo}
                 />
                 <div className={styles.text}>
-                  <p className={styles.name}>Mukund Parasher</p>
+                  <p className={styles.name}>Mukund Parashar</p>
                   <div className={styles.blur}>
-                    <span>Mukund Parasher</span>
+                    <span>Mukund Parashar</span>
                     <img
                       alt=""
                       src="./img/alumni/tata.png"
@@ -166,7 +166,7 @@ const page = () => {
                   className={styles.photo}
                 />
                 <div className={styles.text}>
-                  <p className={styles.name}>Lakshmi Sharma</p>
+                  <p className={styles.name}>Muskan Naaz</p>
                   <div className={styles.blur}>
                     <span>Muskan Naaz</span>
                     <img

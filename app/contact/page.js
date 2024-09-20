@@ -40,7 +40,7 @@ const Page = () => {
                     <ul>
                         <li>Any Queries</li>
                         <div>contact@ietebits.com</div>
-                        <div>6205322261</div>
+                        <div>9142040066</div>
                     </ul>
 
                     <ul>

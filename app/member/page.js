@@ -272,7 +272,7 @@ const Page = () => {
                   style={{ objectFit: 'cover' }}
                 />
                 <div className={styles.memberText}>
-                  <h2>Saron Mukti Ekta</h2>
+                  <h2>Saron Mukti Ekka</h2>
                   <p>vice chairperson</p>
 
                   <div className={styles.memberSubText}>
